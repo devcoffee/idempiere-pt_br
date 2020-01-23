@@ -4,7 +4,7 @@ Translation project for iDempiere Open Source ERP.
 
 # Status #
 
-Works well with 2.1 and 3.1 releases
+Works well with 7.1 and newest releases
 
 # Contribute #
 
