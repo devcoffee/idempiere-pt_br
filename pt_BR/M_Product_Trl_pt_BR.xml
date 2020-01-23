@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="pt_BR" table="M_Product">
+<!--iDempiere(r) Release 7.1_2019-11-22 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="pt_BR" table="M_Product">
  <row id="122" trl="N">
   <value column="Name" original="Standard">Standard</value>
   <value column="Description" original=""/>
@@ -262,11 +262,6 @@
  </row>
  <row id="50027" trl="N">
   <value column="Name" original="Fertilizer Inspection Area">Fertilizer Inspection Area</value>
-  <value column="Description" original=""/>
-  <value column="DocumentNote" original=""/>
- </row>
- <row trl="N" uuid="bd4b05eb-9be1-492b-ada8-030a37b58e3a">
-  <value column="Name" original="Test_OrgCostLevel">Test_OrgCostLevel</value>
   <value column="Description" original=""/>
   <value column="DocumentNote" original=""/>
  </row>

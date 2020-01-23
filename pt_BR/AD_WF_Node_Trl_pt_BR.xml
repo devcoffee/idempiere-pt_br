@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="pt_BR" table="AD_WF_Node">
+<!--iDempiere(r) Release 7.1_2019-11-22 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="pt_BR" table="AD_WF_Node">
  <row id="116" trl="Y">
   <value column="Name" original="Accounting Schema">Esquema Contábil</value>
   <value column="Description" original="Project as Account Segment">Projete como um segmento de contas</value>
@@ -21,7 +21,7 @@
   <value column="Help" original="References are used as prefedined selection lists.  You only need to translate the List Elements !!">References are used as prefedined selection lists.  You only need to translate the List Elements !!</value>
  </row>
  <row id="121" trl="Y">
-  <value column="Name" original="Window &amp; Tab"><![CDATA[Janela & Aba]]></value>
+  <value column="Name" original="Window &amp; Tab" xml:space="preserve"><![CDATA[Janela & Aba]]></value>
   <value column="Description" original="Translate Windows and Tabs">Traduzir Janelas e Abas</value>
   <value column="Help" original="Translate the Name, Description and Help for Windows and Tabs.  Most of the Fields are already translated, if they are centrally maintained.">Translate the Name, Description and Help for Windows and Tabs.  Most of the Fields are already translated, if they are centrally maintained.</value>
  </row>
@@ -31,7 +31,7 @@
   <value column="Help" original="Forms are special Windows and you need to translate its name, description and Help.">Forms are special Windows and you need to translate its name, description and Help.</value>
  </row>
  <row id="123" trl="Y">
-  <value column="Name" original="Report &amp; Process"><![CDATA[Relatório & Processo]]></value>
+  <value column="Name" original="Report &amp; Process" xml:space="preserve"><![CDATA[Relatório & Processo]]></value>
   <value column="Description" original="Translate Reports and Processes">Traduzir Relatórios e Processos</value>
   <value column="Help" original="Translate the Name, Description and Help for Processes and Reports. You don't need to translate the Parameters, if they are centrally maintained.">Translate the Name, Description and Help for Processes and Reports. You don't need to translate the Parameters, if they are centrally maintained.</value>
  </row>
@@ -107,13 +107,13 @@ Review and change the GL and Default accounts. The actual accounts used in trans
   <value column="Help" original=""/>
  </row>
  <row id="50002" trl="N">
-  <value column="Name" original="Bill of Material &amp; Formula Setup"><![CDATA[Bill of Material & Formula Setup]]></value>
+  <value column="Name" original="Bill of Material &amp; Formula Setup" xml:space="preserve"><![CDATA[Bill of Material & Formula Setup]]></value>
   <value column="Description" original="Setup Manufacturing Management">Setup Manufacturing Management</value>
   <value column="Help" original=""/>
  </row>
  <row id="50003" trl="N">
-  <value column="Name" original="Warehouse &amp; Locators"><![CDATA[Warehouse & Locators]]></value>
-  <value column="Description" original="Warehouse &amp; Locators"><![CDATA[Warehouse & Locators]]></value>
+  <value column="Name" original="Warehouse &amp; Locators" xml:space="preserve"><![CDATA[Warehouse & Locators]]></value>
+  <value column="Description" original="Warehouse &amp; Locators" xml:space="preserve"><![CDATA[Warehouse & Locators]]></value>
   <value column="Help" original=""/>
  </row>
  <row id="50004" trl="N">
@@ -257,18 +257,18 @@ Review and change the GL and Default accounts. The actual accounts used in trans
   <value column="Help" original=""/>
  </row>
  <row id="50049" trl="N">
-  <value column="Name" original="Multi Level BOM &amp; Formula Detail"><![CDATA[Multi Level BOM & Formula Detail]]></value>
+  <value column="Name" original="Multi Level BOM &amp; Formula Detail" xml:space="preserve"><![CDATA[Multi Level BOM & Formula Detail]]></value>
   <value column="Description" original="Shows in two different panels the parent-component relationship for the product entered in the Product field.">Shows in two different panels the parent-component relationship for the product entered in the Product field.</value>
   <value column="Help" original=""/>
  </row>
  <row id="50050" trl="N">
-  <value column="Name" original="BOM &amp; Formula Info"><![CDATA[BOM & Formula Info]]></value>
+  <value column="Name" original="BOM &amp; Formula Info" xml:space="preserve"><![CDATA[BOM & Formula Info]]></value>
   <value column="Description" original="Shows in two different panels the parent-component relationship for the product entered in the Product field.">Shows in two different panels the parent-component relationship for the product entered in the Product field.</value>
   <value column="Help" original=""/>
  </row>
  <row id="50051" trl="N">
-  <value column="Name" original="Bill of Materials &amp; Formula"><![CDATA[Bill of Materials & Formula]]></value>
-  <value column="Description" original="Maintain Product Bill of Materials &amp; Formula "><![CDATA[Maintain Product Bill of Materials & Formula ]]></value>
+  <value column="Name" original="Bill of Materials &amp; Formula" xml:space="preserve"><![CDATA[Bill of Materials & Formula]]></value>
+  <value column="Description" original="Maintain Product Bill of Materials &amp; Formula " xml:space="preserve"><![CDATA[Maintain Product Bill of Materials & Formula ]]></value>
   <value column="Help" original=""/>
  </row>
  <row id="50052" trl="N">
@@ -297,13 +297,13 @@ Review and change the GL and Default accounts. The actual accounts used in trans
   <value column="Help" original=""/>
  </row>
  <row id="50057" trl="N">
-  <value column="Name" original="Print &amp; Release Order"><![CDATA[Print & Release Order]]></value>
-  <value column="Description" original="Print &amp; Release Order"><![CDATA[Print & Release Order]]></value>
+  <value column="Name" original="Print &amp; Release Order" xml:space="preserve"><![CDATA[Print & Release Order]]></value>
+  <value column="Description" original="Print &amp; Release Order" xml:space="preserve"><![CDATA[Print & Release Order]]></value>
   <value column="Help" original=""/>
  </row>
  <row id="50058" trl="N">
-  <value column="Name" original="Order Receipt &amp; Issue"><![CDATA[Order Receipt & Issue]]></value>
-  <value column="Description" original="Order Receipt &amp; Issue"><![CDATA[Order Receipt & Issue]]></value>
+  <value column="Name" original="Order Receipt &amp; Issue" xml:space="preserve"><![CDATA[Order Receipt & Issue]]></value>
+  <value column="Description" original="Order Receipt &amp; Issue" xml:space="preserve"><![CDATA[Order Receipt & Issue]]></value>
   <value column="Help" original=""/>
  </row>
  <row id="50059" trl="N">
@@ -361,58 +361,8 @@ Review and change the GL and Default accounts. The actual accounts used in trans
   <value column="Description" original="Replication Strategy">Replication Strategy</value>
   <value column="Help" original=""/>
  </row>
- <row id="50074" trl="N">
-  <value column="Name" original="Payroll">Payroll</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="50075" trl="N">
-  <value column="Name" original="Payroll Concept Category">Payroll Concept Category</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="50076" trl="N">
-  <value column="Name" original="Payroll Contract">Payroll Contract</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="50077" trl="N">
-  <value column="Name" original="Payroll Process">Payroll Process</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="50078" trl="N">
-  <value column="Name" original="Payroll Table">Payroll Table</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="50079" trl="N">
-  <value column="Name" original="Payroll Department">Payroll Department</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="50080" trl="N">
-  <value column="Name" original="Payroll Employee">Payroll Employee</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
  <row id="50081" trl="N">
   <value column="Name" original="Payroll Action Notice">Payroll Action Notice</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="50082" trl="N">
-  <value column="Name" original="Payroll Table Type">Payroll Table Type</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="50083" trl="N">
-  <value column="Name" original="Payroll Job">Payroll Job</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="50084" trl="N">
-  <value column="Name" original="Payroll Concept Catalog">Payroll Concept Catalog</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -434,11 +384,6 @@ Review and change the GL and Default accounts. The actual accounts used in trans
  <row id="50102" trl="N">
   <value column="Name" original="(Start)">(Start)</value>
   <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="50103" trl="N">
-  <value column="Name" original="Activation Approval">Activation Approval</value>
-  <value column="Description" original="Approve asset activation">Approve asset activation</value>
   <value column="Help" original=""/>
  </row>
  <row id="50104" trl="N">
