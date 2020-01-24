@@ -166,7 +166,7 @@
   <value column="Name" original="User Locking">Bloqueio de Usuário</value>
  </row>
  <row id="200004" trl="Y">
-  <value column="Name" original="Overwritten From Column">S</value>
+  <value column="Name" original="Overwritten From Column">Sobrescrever Informações da Coluna</value>
  </row>
  <row id="200005" trl="Y">
   <value column="Name" original="Customer Information">Informações do Cliente</value>
@@ -202,10 +202,10 @@
   <value column="Name" original="Technical">Técnico</value>
  </row>
  <row id="200016" trl="N">
-  <value column="Name" original="Foreign Key">Foreign Key</value>
+  <value column="Name" original="Foreign Key">Chave Estrangeira</value>
  </row>
  <row id="200018" trl="N">
-  <value column="Name" original="Background Job">Background Job</value>
+  <value column="Name" original="Background Job">Trabalho em Segundo Plano</value>
  </row>
  <row id="200022" trl="N">
   <value column="Name" original="Placeholders">Placeholders</value>
