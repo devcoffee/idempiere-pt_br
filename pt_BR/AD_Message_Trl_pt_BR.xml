@@ -5262,7 +5262,7 @@ This is likely to cause hard to fix errors.
 Please contact administrator.</value>
  </row>
  <row id="53026" trl="Y">
-  <value column="MsgText" original="xls - Excel file">xls - Arquivo Excel</value>
+  <value column="MsgText" original="xls - Excel file">xls - Excel 97-2003</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="53027" trl="Y">
@@ -6710,7 +6710,7 @@ Please contact administrator.</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200451" trl="N">
-  <value column="MsgText" original="xlsx - Excel file">xlsx - Excel file</value>
+  <value column="MsgText" original="xlsx - Excel file">xlsx - Excel</value>
   <value column="MsgTip" original=""/>
  </row>
  <row id="200452" trl="N">
