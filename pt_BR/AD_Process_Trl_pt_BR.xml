@@ -16,8 +16,8 @@
   <value column="Help" original="Create Prices for this pricelist version in the sequence of the Discount Schema Price List.&#10;Lines with a higher sequence overwrite existing prices.  The sequence should be from generic to specific.">Criar Preços para esta versão da lista de preços na seqüência do Esquema de Descontos da Lista de Preços. As linhas com uma seqüência maior sobreescrevem os preços existentes.  A seqüência deve ser do genérico ao específico.</value>
  </row>
  <row id="104" trl="Y">
-  <value column="Name" original="Process Order">Ordem de Processo</value>
-  <value column="Description" original=""/>
+  <value column="Name" original="Process Order">Processar Pedido</value>
+  <value column="Description" original="Realiza o Processamento do Pedido ou Ordem de Venda, este processo normalmente é chamado a partir da ação de documento Preparar ou Completar."/>
   <value column="Help" original=""/>
  </row>
  <row id="105" trl="Y">
@@ -156,7 +156,7 @@
   <value column="Help" original="Invoiced Amount by Product Category">Valor Faturado por Categoria de Produto</value>
  </row>
  <row id="133" trl="Y">
-  <value column="Name" original="Monthly Invoice Vendor">Fatura Mensal de Fornecedor</value>
+  <value column="Name" original="Monthly Invoice Vendor">Relatório de Fatura (Fornecedor) Mensal</value>
   <value column="Description" original="Invoice Report by Product Vendor per Month">Relatório Mensal de Fatura de Fornecedor por Produto</value>
   <value column="Help" original="Invoiced Amount by Vendor and Product Category">Valor Faturado por Fornecedor e Categoria de Produto</value>
  </row>
@@ -1369,18 +1369,18 @@ You can also include Distibution orders who have outstanding confirmations (e.g.
   <value column="Description" original="Process allow print the result of Quality Order">Processo que permite a impressão dos resultados de um Teste de Qualidade</value>
   <value column="Help" original=""/>
  </row>
- <row id="53050" trl="N">
+ <row id="53050" trl="Y">
   <value column="Name" original="Create Doc Type to Manufacturing">Cria Tipo de Documento para Produção</value>
   <value column="Description" original="Let create the document type to manufacturing">Cria Tipo de Documento para Produção</value>
   <value column="Help" original="This process only need run one time by client">Este processo necessita apenas do client para rodar</value>
  </row>
- <row id="53052" trl="N">
+ <row id="53052" trl="Y">
   <value column="Name" original="Create Element">Cria Elemento</value>
   <value column="Description" original="Let create every cost elements defined for a Organization, Accounting Schema, Warehouse, Resource, Cost Type ,Product and Product Attribute Set Instance .">Let create every cost elements defined for a Organization, Accounting Schema, Warehouse, Resource, Cost Type ,Product and Product Attribute Set Instance .</value>
   <value column="Help" original="With this process is possible to create every cost elements defined for a Organization, Accounting Schema, Warehouse, Resource, Cost Type and Product.">With this process is possible to create every cost elements defined for a Organization, Accounting Schema, Warehouse, Resource, Cost Type and Product.</value>
  </row>
- <row id="53056" trl="N">
-  <value column="Name" original="Copy Price to Standard Cost">Copy Price to Standard Cost</value>
+ <row id="53056" trl="Y">
+  <value column="Name" original="Copy Price to Standard Cost">Copiar Preço para o Custo Padrão</value>
   <value column="Description" original="This process allow copy a Price from Price list Version to Element Cost">This process allow copy a Price from Price list Version to Element Cost</value>
   <value column="Help" original="This process allow copy a Price from Price list Version to Element Cost">This process allow copy a Price from Price list Version to Element Cost</value>
  </row>
@@ -1408,8 +1408,8 @@ Element Cost = Element Cost this level + Element Cost this low level
 Total BOM Cost = Sum every Element Cost]]></value>
  </row>
  <row id="53063" trl="Y">
-  <value column="Name" original="Create Report (Jasper)">Create Report (Jasper)</value>
-  <value column="Description" original="Create Financial Report  (Jasper)">Create Financial Report  (Jasper)</value>
+  <value column="Name" original="Create Report (Jasper)">Criar Relatório (Jasper)</value>
+  <value column="Description" original="Create Financial Report  (Jasper)">Criar Relatório Financeiro (Jasper)</value>
   <value column="Help" original="The default period is the current period. You can optionally enter other restrictions.  You can select an alternative Reporting Hierarchy.">The default period is the current period. You can optionally enter other restrictions.  You can select an alternative Reporting Hierarchy.</value>
  </row>
  <row id="53065" trl="N">
@@ -1432,8 +1432,8 @@ Total BOM Cost = Sum every Element Cost]]></value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53074" trl="N">
-  <value column="Name" original="Test Import Model">Teste de Modelo de Importação</value>
+ <row id="53074" trl="Y">
+  <value column="Name" original="Test Import Model">Teste de Modelo de Importação XML</value>
   <value column="Description" original="Test Import of XML files">Teste de Importação de Arquivos XML</value>
   <value column="Help" original=""/>
  </row>
@@ -1452,8 +1452,8 @@ Total BOM Cost = Sum every Element Cost]]></value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53082" trl="N">
-  <value column="Name" original="Payroll Processing">Payroll Processing</value>
+ <row id="53082" trl="Y">
+  <value column="Name" original="Payroll Processing">Processamento de Folha de Pagamento</value>
   <value column="Description" original="The Payroll Processing is used to processing a Payroll, you can calculate for a Employee or All Employees">The Payroll Processing is used to processing a Payroll, you can calculate for a Employee or All Employees</value>
   <value column="Help" original=""/>
  </row>
@@ -1527,12 +1527,12 @@ Total BOM Cost = Sum every Element Cost]]></value>
   <value column="Description" original="Used to review Assets Forecast">Used to review Assets Forecast</value>
   <value column="Help" original=""/>
  </row>
- <row id="53115" trl="N">
+ <row id="53115" trl="Y">
   <value column="Name" original="Asset Parent Report">Relatório de Ativos Principais</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53117" trl="N">
+ <row id="53117" trl="Y">
   <value column="Name" original="Depreciation Table">Tabela de Depreciação - View</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -1542,33 +1542,33 @@ Total BOM Cost = Sum every Element Cost]]></value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53121" trl="N">
+ <row id="53121" trl="Y">
   <value column="Name" original="Asset Depreciation Method">Metodos de Depreciação de Ativos</value>
   <value column="Description" original="List Depreciation Methods">Lista os Metodos de Depreciação</value>
   <value column="Help" original=""/>
  </row>
- <row id="53123" trl="N">
+ <row id="53123" trl="Y">
   <value column="Name" original="Create Depreciation Function">Função para criar Depreciações</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53125" trl="N">
+ <row id="53125" trl="Y">
   <value column="Name" original="Asset Convention Report">Relatório de Convenção de Ativo - View</value>
   <value column="Description" original="Asset Convention Report">Relatório de Ativos de Convenção</value>
   <value column="Help" original=""/>
  </row>
- <row id="53129" trl="N">
+ <row id="53129" trl="Y">
   <value column="Name" original="Depreciation Calculation Methods">Metodos de Calculo de Depreciação - View</value>
   <value column="Description" original="List Depreciation Calculation Methods Available">Metodos de Calculo de Depreciação - View</value>
   <value column="Help" original=""/>
  </row>
- <row id="53131" trl="N">
+ <row id="53131" trl="Y">
   <value column="Name" original="Asset Group Defaults">Relatório de Grupos Padrões de Ativo - View</value>
   <value column="Description" original="Lists Asset Group Settings &amp; Defaults">Lista Grupos Padrão de Ativos</value>
   <value column="Help" original=""/>
  </row>
- <row id="53139" trl="N">
-  <value column="Name" original="Import Asset ">Import Asset </value>
+ <row id="53139" trl="Y">
+  <value column="Name" original="Import Asset ">Importar Ativo</value>
   <value column="Description" original="Imports Asset from a file into the application">Imports Asset from a file into the application</value>
   <value column="Help" original="Import Asset will bring a file of Asset in a predefined format into the application.&lt;p&gt;&#10;The Parameters are default values for null import record values they do not overwrite any data." xml:space="preserve"><![CDATA[Import Asset will bring a file of Asset in a predefined format into the application.<p>
 The Parameters are default values for null import record values they do not overwrite any data.]]></value>
@@ -1618,7 +1618,7 @@ Consolidate to one Document let the distribution in current Documents with range
   <value column="Help" original=""/>
  </row>
  <row id="53156" trl="Y">
-  <value column="Name" original="Enable Native Sequence">Habilitar Seqüencia Nativa</value>
+  <value column="Name" original="Enable Native Sequence">Habilitar Sequencia Nativa</value>
   <value column="Description" original="Enable Native Sequence">Habilitar Seqüencia Nativa</value>
   <value column="Help" original="This process allows Enable the native sequences based in the current AD_Sequence.&#10;&#10;This process should be implemented when the users are not connected.">Este processo permite habilitar sequencias nativas baseadas nos valores atuais da AD_Sequence.
 
@@ -1654,7 +1654,7 @@ Este processo deve ser executado quando os usuários não estiverem conectados.<
   <value column="Description" original="Sales Order Transaction Report">Cubo: Lista dos cabeçalhos das ordens de venda (AR) e pedidos de Compra (AP).</value>
   <value column="Help" original=""/>
  </row>
- <row id="53179" trl="N">
+ <row id="53179" trl="Y">
   <value column="Name" original="Copy From Report and Process">Copiar do Relatório e Processo</value>
   <value column="Description" original="Copy settings from one report and process to another.">Copie as configurações de um relatório e processo para outro.</value>
   <value column="Help" original="Copy the settings from the selected report and process to the current one.  This overwrites existing settings and translations.">Copy the settings from the selected report and process to the current one.  This overwrites existing settings and translations.</value>
@@ -1669,9 +1669,9 @@ Este processo deve ser executado quando os usuários não estiverem conectados.<
   <value column="Description" original="">Cubo: Listar as quantidades armazenadas dos produtos por armazém.</value>
   <value column="Help" original=""/>
  </row>
- <row id="53197" trl="N">
-  <value column="Name" original="Import Payroll Movement">Import Payroll Movement</value>
-  <value column="Description" original="Import Payroll Movement">Import Payroll Movement</value>
+ <row id="53197" trl="Y">
+  <value column="Name" original="Import Payroll Movement">Importar Movimentações de Folha de Pagamento</value>
+  <value column="Description" original="Import Payroll Movement">Importar Movimentações de Folha de Pagamento</value>
   <value column="Help" original=""/>
  </row>
  <row id="53199" trl="Y">
@@ -1699,8 +1699,8 @@ Este processo deve ser executado quando os usuários não estiverem conectados.<
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53208" trl="N">
-  <value column="Name" original="Asset Addition Process">Asset Addition Process</value>
+ <row id="53208" trl="Y">
+  <value column="Name" original="Asset Addition Process">Processar Adição de Ativo</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -1714,8 +1714,8 @@ Este processo deve ser executado quando os usuários não estiverem conectados.<
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53212" trl="N">
-  <value column="Name" original="Asset Transfer Process">Asset Transfer Process</value>
+ <row id="53212" trl="Y">
+  <value column="Name" original="Asset Transfer Process">Processar de Transferência de Ativo</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -1735,7 +1735,7 @@ Este processo deve ser executado quando os usuários não estiverem conectados.<
   <value column="Help" original="Import All Fixed Assets">Importar todos os Ativo Fixo</value>
  </row>
  <row id="53216" trl="N">
-  <value column="Name" original="ImportInventoryMovement">ImportInventoryMovement</value>
+  <value column="Name" original="ImportInventoryMovement">Importar Movimentação de Estoque</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -1785,8 +1785,8 @@ Este processo deve ser executado quando os usuários não estiverem conectados.<
   <value column="Help" original=""/>
  </row>
  <row id="53247" trl="Y">
-  <value column="Name" original="Generate Periodic Plan">Gerar Plano Periódico</value>
-  <value column="Description" original=""/>
+  <value column="Name" original="Generate Periodic Plan">Gerar Plano de Caixa</value>
+  <value column="Description" original="Processo para Gerar de Forma automática as ocorrencias do Plano de Caixa (Linhas)"/>
   <value column="Help" original=""/>
  </row>
  <row id="53248" trl="Y">
@@ -1845,8 +1845,8 @@ b. Product, is the asset product that will be act as the base for the newly crea
 c. UseLifeYears, is an optional parameter. Use this if you want a different use life years for the newly created asset, instead of the default uselifeyears from asset group accounting.
 d. Transaction Date, will become in-service-date for the newly created asset.</value>
  </row>
- <row id="200005" trl="N">
-  <value column="Name" original="Copy Details">Copy Details</value>
+ <row id="200005" trl="Y">
+  <value column="Name" original="Copy Details">Copiar Detalhes</value>
   <value column="Description" original="Copy Journal/Lines from other Journal">Copy Journal/Lines from other Journal</value>
   <value column="Help" original=""/>
  </row>
@@ -1895,18 +1895,18 @@ d. Transaction Date, will become in-service-date for the newly created asset.</v
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="200018" trl="N">
-  <value column="Name" original="Expire Broadcast Message">Expire BroadcastMeassage</value>
+ <row id="200018" trl="Y">
+  <value column="Name" original="Expire Broadcast Message">Expirar Mensagem Broadcast</value>
   <value column="Description" original="Expire Broadcast Message">Expire BroadcastMeassage</value>
   <value column="Help" original="Selecting OK will expire current message. Do you want to expire message?">Selecting OK will expire current message. Do you want to expire message?</value>
  </row>
- <row id="200019" trl="N">
-  <value column="Name" original="Publish Broadcast message">Publish Broadcast message</value>
+ <row id="200019" trl="Y">
+  <value column="Name" original="Publish Broadcast message">Publicar Mensagem Broadcast</value>
   <value column="Description" original="Publish Broadcast message">Publish Broadcast message</value>
   <value column="Help" original="Selecting ok will publish message.  Do you want to publish message?">Selecting ok will publish message.  Do you want to publish message?</value>
  </row>
  <row id="200020" trl="Y">
-  <value column="Name" original="Test Broadcast Message">Testar Transmissão de Mensgem</value>
+  <value column="Name" original="Test Broadcast Message">Testar Transmissão de Mensgem Broadcast</value>
   <value column="Description" original="Test and verify message before broadcasting">Testar e verificar uma mensagem antes da transmissão</value>
   <value column="Help" original=""/>
  </row>
