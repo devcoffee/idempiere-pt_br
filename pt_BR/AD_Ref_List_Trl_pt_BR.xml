@@ -4720,52 +4720,52 @@
   <value column="Name" original="Converted">Convertida</value>
   <value column="Description" original=""/>
  </row>
- <row id="200008" trl="N">
-  <value column="Name" original="New">New</value>
+ <row id="200008" trl="Y">
+  <value column="Name" original="New">Novo</value>
   <value column="Description" original=""/>
  </row>
- <row id="200009" trl="N">
-  <value column="Name" original="Pending">Pending</value>
+ <row id="200009" trl="Y">
+  <value column="Name" original="Pending">Pendente</value>
   <value column="Description" original=""/>
  </row>
- <row id="200010" trl="N">
-  <value column="Name" original="Finished">Finished</value>
+ <row id="200010" trl="Y">
+  <value column="Name" original="Finished">Finalizado</value>
   <value column="Description" original=""/>
  </row>
- <row id="200011" trl="N">
-  <value column="Name" original="In-Progress">In-Progress</value>
+ <row id="200011" trl="Y">
+  <value column="Name" original="In-Progress">Em Progresso</value>
   <value column="Description" original=""/>
  </row>
- <row id="200012" trl="N">
-  <value column="Name" original="Skipped">Skipped</value>
+ <row id="200012" trl="Y">
+  <value column="Name" original="Skipped">Ignorado</value>
   <value column="Description" original=""/>
  </row>
- <row id="200013" trl="N">
-  <value column="Name" original="Delayed">Delayed</value>
+ <row id="200013" trl="Y">
+  <value column="Name" original="Delayed">Atrasado</value>
   <value column="Description" original=""/>
  </row>
- <row id="200014" trl="N">
-  <value column="Name" original="Wizard">Wizard</value>
+ <row id="200014" trl="Y">
+  <value column="Name" original="Wizard">Assitente</value>
   <value column="Description" original=""/>
  </row>
- <row id="200020" trl="N">
-  <value column="Name" original="Charged">Charged</value>
+ <row id="200020" trl="Y">
+  <value column="Name" original="Charged">Carregado</value>
   <value column="Description" original=""/>
  </row>
- <row id="200021" trl="N">
-  <value column="Name" original="Delayed">Delayed</value>
+ <row id="200021" trl="Y">
+  <value column="Name" original="Delayed">Atrasado</value>
   <value column="Description" original=""/>
  </row>
- <row id="200022" trl="N">
-  <value column="Name" original="Replaced">Replaced</value>
+ <row id="200022" trl="Y">
+  <value column="Name" original="Replaced">Substituído</value>
   <value column="Description" original=""/>
  </row>
- <row id="200023" trl="N">
-  <value column="Name" original="Received">Received</value>
+ <row id="200023" trl="Y">
+  <value column="Name" original="Received">Recebido</value>
   <value column="Description" original=""/>
  </row>
- <row id="200024" trl="N">
-  <value column="Name" original="Returned">Returned</value>
+ <row id="200024" trl="Y">
+  <value column="Name" original="Returned">Devolvido</value>
   <value column="Description" original=""/>
  </row>
  <row id="200025" trl="Y">
@@ -4776,28 +4776,28 @@
   <value column="Name" original="Card">Cartão</value>
   <value column="Description" original=""/>
  </row>
- <row id="200027" trl="N">
-  <value column="Name" original="Column">Column</value>
+ <row id="200027" trl="Y">
+  <value column="Name" original="Column">Coluna</value>
   <value column="Description" original=""/>
  </row>
- <row id="200028" trl="N">
-  <value column="Name" original="Fixed">Fixed</value>
+ <row id="200028" trl="Y">
+  <value column="Name" original="Fixed">Fixo</value>
   <value column="Description" original=""/>
  </row>
- <row id="200029" trl="N">
-  <value column="Name" original="Same">Same</value>
+ <row id="200029" trl="Y">
+  <value column="Name" original="Same">Mesmo</value>
   <value column="Description" original=""/>
  </row>
  <row id="200039" trl="Y">
   <value column="Name" original="Asset">Ativo</value>
   <value column="Description" original=""/>
  </row>
- <row id="200043" trl="N">
-  <value column="Name" original="File System">File System</value>
+ <row id="200043" trl="Y">
+  <value column="Name" original="File System">Sistema de Arquivos</value>
   <value column="Description" original=""/>
  </row>
- <row id="200044" trl="N">
-  <value column="Name" original="Database">Database</value>
+ <row id="200044" trl="Y">
+  <value column="Name" original="Database">Banco de Dados</value>
   <value column="Description" original=""/>
  </row>
  <row id="200045" trl="Y">
@@ -4908,8 +4908,8 @@
   <value column="Name" original="Class 9 - Miscellaneous Dangerous Goods">Class 9 - Miscellaneous Dangerous Goods</value>
   <value column="Description" original=""/>
  </row>
- <row id="200073" trl="N">
-  <value column="Name" original="Appointment">Appointment</value>
+ <row id="200073" trl="Y">
+  <value column="Name" original="Appointment">Apontamento</value>
   <value column="Description" original=""/>
  </row>
  <row id="200074" trl="N">
@@ -4928,19 +4928,19 @@
   <value column="Name" original="Recipient / Sender">Recipient / Sender</value>
   <value column="Description" original=""/>
  </row>
- <row id="200078" trl="N">
-  <value column="Name" original="Sender">Sender</value>
+ <row id="200078" trl="Y">
+  <value column="Name" original="Sender">Remetente</value>
   <value column="Description" original=""/>
  </row>
  <row id="200079" trl="N">
   <value column="Name" original="Eltron">Eltron</value>
   <value column="Description" original="Print using eltron label printer language">Print using eltron label printer language</value>
  </row>
- <row id="200080" trl="N">
-  <value column="Name" original="Image">Image</value>
-  <value column="Description" original="Print as Image">Print as Image</value>
+ <row id="200080" trl="Y">
+  <value column="Name" original="Image">Imagem</value>
+  <value column="Description" original="Print as Image">Imprimir como Imagem</value>
  </row>
- <row id="200081" trl="N">
+ <row id="200081" trl="Y">
   <value column="Name" original="Zebra">Zebra</value>
   <value column="Description" original="Print using zebra label printer language">Print using zebra label printer language</value>
  </row>
@@ -4952,12 +4952,12 @@
   <value column="Name" original="3rd Party">3rd Party</value>
   <value column="Description" original=""/>
  </row>
- <row id="200084" trl="N">
-  <value column="Name" original="Consignee">Consignee</value>
+ <row id="200084" trl="Y">
+  <value column="Name" original="Consignee">Consignação</value>
   <value column="Description" original=""/>
  </row>
- <row id="200085" trl="N">
-  <value column="Name" original="Prepaid">Prepaid</value>
+ <row id="200085" trl="Y">
+  <value column="Name" original="Prepaid">Pré Pago</value>
   <value column="Description" original=""/>
  </row>
  <row id="200086" trl="N">
