@@ -1832,8 +1832,8 @@ Movements are only created, if a sourcing warehouse is defined for the warehouse
   <value column="Help" original="Convert Lead into a Business Partner and (optional) Sales Opportunity">Convert Lead into a Business Partner and (optional) Sales Opportunity</value>
  </row>
  <row id="53710" trl="N">
-  <value column="Name" original="Revenue Recognition Run">Revenue Recognition Run</value>
-  <value column="Description" original="Generate revenue recognition journal">Generate revenue recognition journal</value>
+  <value column="Name" original="Revenue Recognition Run">Processar Reconhecimento de Receitas</value>
+  <value column="Description" original="Generate revenue recognition journal">Gerar Extrato de Reconhecimento de Receitas</value>
   <value column="Help" original="Generate GL journal based on valid revenue recognition run entries">Generate GL journal based on valid revenue recognition run entries</value>
  </row>
  <row id="200000" trl="Y">
