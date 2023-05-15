@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 7.1_2019-11-22 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="pt_BR" table="AD_Form">
+<!--iDempiere(r) Release 11_2022-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2023 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="pt_BR" table="AD_Form">
  <row id="100" trl="Y">
   <value column="Name" original="Generate Invoices (manual)">Gerar Faturas / Notas Fiscais  (Manual)</value>
   <value column="Description" original="Select and generate invoices">Selecionar e Gerar Notas Fiscais</value>
@@ -25,6 +25,11 @@ Gerar Faturas a partir dos Pedidos. Selecione os pedidos para os quais devem ser
   <value column="Name" original="Import File Loader">Carregador de Arquivo de Importação</value>
   <value column="Description" original="Load flat Files into import tables">Carregar arquivos planos nas tabelas de importação</value>
   <value column="Help" original="The Import File Loader parses the content of a flat file and loads it into import tables. Comments start with a '[' and end with a ']' and are ignored; example: [Some Heading].">O Carregador de Arquivo de Importação analisa o conteúdo de um arquivo plano e o carrega nas tabelas de importação. Comentários começam com um '[' e terminam com um ']' e são ignorados; exemplo: [Algum Título].</value>
+ </row>
+ <row id="102" trl="N">
+  <value column="Name" original="Initial Tenant Setup Form (deprecated)">Initial Tenant Setup Form (deprecated)</value>
+  <value column="Description" original="Initial new Tenant Setup">Initial new Tenant Setup</value>
+  <value column="Help" original="Set up a new Tenant of the system">Set up a new Tenant of the system</value>
  </row>
  <row id="103" trl="Y">
   <value column="Name" original="Material Transactions">Transações de Materiais</value>
@@ -57,7 +62,7 @@ Gerar Faturas a partir dos Pedidos. Selecione os pedidos para os quais devem ser
   <value column="Help" original="Make sure that the Receipts and Invoices are processed. If you want to match partial shipment, make sure that &quot;Same Quantity&quot; is not selected.">Certifique-se que os Recibos e Faturas sejam processados. Se você deseja confrontar entregas parciais, Certifique-se que "Mesma Quantidade" não esteja selecionado.</value>
  </row>
  <row id="109" trl="Y">
-  <value column="Name" original="Translation Import/Export">Importação/Exportação de Traduções</value>
+  <value column="Name" original="Translation Import/Export Form (deprecated)">Importação/Exportação de Traduções</value>
   <value column="Description" original="Import or Export Language Translation">Importar ou Exportar Traduções de Idiomas</value>
   <value column="Help" original="Export/Import Translation info to/from xml for translation in external tool. Please note that the Language MUST be an enabled and verified System Langage.">Exportar/Importar Informações de Tradução de/para arquivos xml para tradução em uma ferramenta externa. Note que o Idioma TEM que ser um Idioma de Sistema liberado e verificado.</value>
  </row>
@@ -105,7 +110,7 @@ Gerar Faturas a partir dos Pedidos. Selecione os pedidos para os quais devem ser
  <row id="118" trl="Y">
   <value column="Name" original="Archive Viewer">Visualizador de Documentos Arquivados</value>
   <value column="Description" original="View automatically archived Documents">Visualizar automaticamente documentos arquivados</value>
-  <value column="Help" original="Depending on the Client Automatic Archive Level documents and reports are saved and available for view. In the Report Viewer you can manually archive Documents or Reports.  You can only view archives, if you have access to the original document.">Dependendo do "Nível de Arquivamento Automático da Empresa" os documentos e relatórios são salvos e disponibilizados para visualização. No "Visualizador de Relatório" você pode arquivar manualmente documentos ou relatórios.  Você só pode visualizar arquivos, se você tiver acesso ao documento original.</value>
+  <value column="Help" original="Depending on the Tenant Automatic Archive Level documents and reports are saved and available for view. In the Report Viewer you can manually archive Documents or Reports.  You can only view archives, if you have access to the original document.">Dependendo do "Nível de Arquivamento Automático da Empresa" os documentos e relatórios são salvos e disponibilizados para visualização. No "Visualizador de Relatório" você pode arquivar manualmente documentos ou relatórios.  Você só pode visualizar arquivos, se você tiver acesso ao documento original.</value>
  </row>
  <row id="119" trl="Y">
   <value column="Name" original="Performance Indicators">Indicadores de Desempenho</value>
@@ -191,6 +196,12 @@ Finally a message box asks if you want to close the OM document, you should clic
   <value column="Description" original="Payroll Action Notice let entry the events that happend with any Employee">Payroll Action Notice let entry the events that happend with any Employee</value>
   <value column="Help" original=""/>
  </row>
+ <row id="53010" trl="N">
+  <value column="Name" original="Generate Shipments &amp; Invoices (manual)" xml:space="preserve"><![CDATA[Generate Shipments & Invoices (manual)]]></value>
+  <value column="Description" original="Select and generate shipments &amp; Invoices" xml:space="preserve"><![CDATA[Select and generate shipments & Invoices]]></value>
+  <value column="Help" original="Generate Shipments &amp; Invoices from Orders.  &#10;Select the orders to generate the shipments &amp; Invoices for." xml:space="preserve"><![CDATA[Generate Shipments & Invoices from Orders.  
+Select the orders to generate the shipments & Invoices for.]]></value>
+ </row>
  <row id="53012" trl="N">
   <value column="Name" original="Material Receipt Distribution Order">Material Receipt Distribution Order</value>
   <value column="Description" original="Material Receipt Distribution Order">Material Receipt Distribution Order</value>
@@ -202,7 +213,7 @@ Finally a message box asks if you want to close the OM document, you should clic
   <value column="Help" original="Edit the graphical layout of manufacturing workflows">Edit the graphical layout of manufacturing workflows</value>
  </row>
  <row id="53016" trl="Y">
-  <value column="Name" original="Accounting Fact Reconcilation (manual)">Reconciliação de Fatos Contábeis (manual)</value>
+  <value column="Name" original="Accounting Fact Reconciliation (manual)">Reconciliação de Fatos Contábeis (manual)</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -260,5 +271,25 @@ Finally a message box asks if you want to close the OM document, you should clic
   <value column="Name" original="Apache Felix Web Console">Apache Felix Web Console</value>
   <value column="Description" original="Form to configure access to /osgi/system/console - do not add to menu">Form to configure access to /osgi/system/console - do not add to menu</value>
   <value column="Help" original=""/>
+ </row>
+ <row id="200015" trl="N">
+  <value column="Name" original="Plugin Manager">Plugin Manager</value>
+  <value column="Description" original="Plugin Manager">Plugin Manager</value>
+  <value column="Help" original="Plugin Manager">Plugin Manager</value>
+ </row>
+ <row id="200016" trl="N">
+  <value column="Name" original="Add Authorization Mail Account">Add Authorization Mail Account</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200017" trl="N">
+  <value column="Name" original="Register MFA">Register MFA</value>
+  <value column="Description" original="Register a multi-factor authentication mechanism">Register a multi-factor authentication mechanism</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200018" trl="N">
+  <value column="Name" original="SQL Query">SQL Query</value>
+  <value column="Description" original="Process SQL Queries">Process SQL Queries</value>
+  <value column="Help" original="Process SQL Queries">Process SQL Queries</value>
  </row>
 </idempiereTrl>

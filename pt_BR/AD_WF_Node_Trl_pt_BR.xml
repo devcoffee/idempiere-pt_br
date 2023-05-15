@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 7.1_2019-11-22 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="pt_BR" table="AD_WF_Node">
+<!--iDempiere(r) Release 11_2022-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2023 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="pt_BR" table="AD_WF_Node">
  <row id="116" trl="Y">
   <value column="Name" original="Accounting Schema">Esquema Contábil</value>
   <value column="Description" original="Project as Account Segment">Projete como um segmento de contas</value>
@@ -51,8 +51,8 @@
   <value column="Help" original="Translate Name, Description and Help of Workflows and their Nodes.  You only need to translate the List Elements !!">Translate Name, Description and Help of Workflows and their Nodes.  You only need to translate the List Elements !!</value>
  </row>
  <row id="152" trl="Y">
-  <value column="Name" original="Check Client Setup">Conferir a Configuração da Empresa</value>
-  <value column="Description" original="Check Client setup for Requests">Conferir a Configuração da Empresa para Solicitações.</value>
+  <value column="Name" original="Check Tenant Setup">Conferir a Configuração da Empresa</value>
+  <value column="Description" original="Check Tenant setup for Requests">Conferir a Configuração da Empresa para Solicitações.</value>
   <value column="Help" original="You need to have a mail server and an email address from which the requets an notifications are sent.  Optionally, if you define a mail user and password, requests are read from the mail users's folder and imported into the system.">You need to have a mail server and an email address from which the requets an notifications are sent.  Optionally, if you define a mail user and password, requests are read from the mail users's folder and imported into the system.</value>
  </row>
  <row id="153" trl="Y">
@@ -90,11 +90,6 @@
   <value column="Description" original="Maintain Accounting Schema - For changes to become effective you must re-login">Maintain Accounting Schema - For changes to become effective you must re-login</value>
   <value column="Help" original="The Accounting Schema Window defines an accounting method and the elements that will comprise an account structure. Create and activate elements for detailed accounting for Business Partners, Products, Locations, etc.&#10;Review and change the GL and Default accounts. The actual accounts used in transactions depend on the executing organization; Most of the information is derived from the context.">The Accounting Schema Window defines an accounting method and the elements that will comprise an account structure. Create and activate elements for detailed accounting for Business Partners, Products, Locations, etc.
 Review and change the GL and Default accounts. The actual accounts used in transactions depend on the executing organization; Most of the information is derived from the context.</value>
- </row>
- <row id="180" trl="N">
-  <value column="Name" original="Verify completed Requisition">Verify completed Requisition</value>
-  <value column="Description" original="Just a test case for a manual interaction.">Just a test case for a manual interaction.</value>
-  <value column="Help" original="Enter and maintain Material Requisitions">Enter and maintain Material Requisitions</value>
  </row>
  <row id="50000" trl="N">
   <value column="Name" original="Manufacturing Workflow Setup">Manufacturing Workflow Setup</value>
@@ -361,8 +356,58 @@ Review and change the GL and Default accounts. The actual accounts used in trans
   <value column="Description" original="Replication Strategy">Replication Strategy</value>
   <value column="Help" original=""/>
  </row>
+ <row id="50074" trl="N">
+  <value column="Name" original="Payroll">Payroll</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50075" trl="N">
+  <value column="Name" original="Payroll Concept Category">Payroll Concept Category</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50076" trl="N">
+  <value column="Name" original="Payroll Contract">Payroll Contract</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50077" trl="N">
+  <value column="Name" original="Payroll Process">Payroll Process</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50078" trl="N">
+  <value column="Name" original="Payroll Table">Payroll Table</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50079" trl="N">
+  <value column="Name" original="Payroll Department">Payroll Department</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50080" trl="N">
+  <value column="Name" original="Payroll Employee">Payroll Employee</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
  <row id="50081" trl="N">
   <value column="Name" original="Payroll Action Notice">Payroll Action Notice</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50082" trl="N">
+  <value column="Name" original="Payroll Table Type">Payroll Table Type</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50083" trl="N">
+  <value column="Name" original="Payroll Job">Payroll Job</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50084" trl="N">
+  <value column="Name" original="Payroll Concept Catalog">Payroll Concept Catalog</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -384,6 +429,11 @@ Review and change the GL and Default accounts. The actual accounts used in trans
  <row id="50102" trl="N">
   <value column="Name" original="(Start)">(Start)</value>
   <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="50103" trl="N">
+  <value column="Name" original="Activation Approval">Activation Approval</value>
+  <value column="Description" original="Approve asset activation">Approve asset activation</value>
   <value column="Help" original=""/>
  </row>
  <row id="50104" trl="N">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 7.1_2019-11-22 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="pt_BR" table="AD_Ref_List">
+<!--iDempiere(r) Release 11_2022-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2023 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="pt_BR" table="AD_Ref_List">
  <row id="51" trl="Y">
   <value column="Name" original="Organization">Organização</value>
   <value column="Description" original=""/>
@@ -66,6 +66,10 @@
  </row>
  <row id="109" trl="Y">
   <value column="Name" original="Menu">Menu</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="110" trl="N">
+  <value column="Name" original="Single Record">Single Record</value>
   <value column="Description" original=""/>
  </row>
  <row id="111" trl="Y">
@@ -408,6 +412,10 @@
   <value column="Name" original="Visa">Visa</value>
   <value column="Description" original=""/>
  </row>
+ <row id="213" trl="N">
+  <value column="Name" original="ATM">ATM</value>
+  <value column="Description" original=""/>
+ </row>
  <row id="214" trl="Y">
   <value column="Name" original="After Order delivered">Após pedido despachado</value>
   <value column="Description" original="Invoice for every order">Nota Fiscal para cada pedido</value>
@@ -421,8 +429,8 @@
   <value column="Description" original="Invoice per Customer Invoice Schedule">Faturar por Programação de Fatura do Cliente</value>
  </row>
  <row id="217" trl="Y">
-  <value column="Name" original="After Receipt">Após o recebimento</value>
-  <value column="Description" original="After receipt of cash">Após o recebimento em dinheiro</value>
+  <value column="Name" original="After Payment">Após o recebimento</value>
+  <value column="Description" original="After full payment has been received for the order">Após o recebimento em dinheiro</value>
  </row>
  <row id="218" trl="Y">
   <value column="Name" original="Availability">Disponibilidade</value>
@@ -463,6 +471,10 @@
  <row id="227" trl="Y">
   <value column="Name" original="Calculated">Calculado</value>
   <value column="Description" original="Calculated based on Product Freight Rule">Calculado baseado na Regra de Frete do Produto</value>
+ </row>
+ <row id="228" trl="N">
+  <value column="Name" original="Line">Line</value>
+  <value column="Description" original="Entered at Line level">Entered at Line level</value>
  </row>
  <row id="229" trl="Y">
   <value column="Name" original="High">Alta</value>
@@ -664,12 +676,20 @@
   <value column="Name" original="Organization">Organização</value>
   <value column="Description" original=""/>
  </row>
+ <row id="285" trl="N">
+  <value column="Name" original="BoM">BoM</value>
+  <value column="Description" original="Bill of Materials">Bill of Materials</value>
+ </row>
  <row id="286" trl="Y">
   <value column="Name" original="Project">Projeto</value>
   <value column="Description" original=""/>
  </row>
  <row id="287" trl="Y">
   <value column="Name" original="Sales Region">Região de Vendas</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="288" trl="N">
+  <value column="Name" original="Product Category">Product Category</value>
   <value column="Description" original=""/>
  </row>
  <row id="289" trl="Y">
@@ -990,6 +1010,10 @@
  </row>
  <row id="385" trl="Y">
   <value column="Name" original="Tab Separated">Separado por Tabulações</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="386" trl="N">
+  <value column="Name" original="XML">XML</value>
   <value column="Description" original=""/>
  </row>
  <row id="387" trl="Y">
@@ -1352,6 +1376,10 @@
   <value column="Name" original="Texture (Picture)">Textura (Imagem)</value>
   <value column="Description" original=""/>
  </row>
+ <row id="486" trl="N">
+  <value column="Name" original="Workbench">Workbench</value>
+  <value column="Description" original=""/>
+ </row>
  <row id="487" trl="Y">
   <value column="Name" original="Dictionary">Dicionário</value>
   <value column="Description" original="Application Dictionary (synchronized)">Dicionário de Aplicação (sincronizado)</value>
@@ -1386,6 +1414,10 @@
  </row>
  <row id="497" trl="Y">
   <value column="Name" original="Flat Percent">Percentagem Fixa</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="498" trl="N">
+  <value column="Name" original="Formula">Formula</value>
   <value column="Description" original=""/>
  </row>
  <row id="499" trl="Y">
@@ -1562,6 +1594,10 @@
  </row>
  <row id="542" trl="Y">
   <value column="Name" original="Expense type">Tipo de Despesa</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="543" trl="N">
+  <value column="Name" original="Online">Online</value>
   <value column="Description" original=""/>
  </row>
  <row id="544" trl="Y">
@@ -1860,6 +1896,10 @@
   <value column="Name" original="Role">Papel (Função)</value>
   <value column="Description" original=""/>
  </row>
+ <row id="619" trl="N">
+  <value column="Name" original="System Resource">System Resource</value>
+  <value column="Description" original=""/>
+ </row>
  <row id="620" trl="Y">
   <value column="Name" original="Not Started">Não Iniciado</value>
   <value column="Description" original=""/>
@@ -2022,6 +2062,14 @@
  </row>
  <row id="663" trl="Y">
   <value column="Name" original="Frequency">Freqüência</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="664" trl="N">
+  <value column="Name" original="Week Day">Week Day</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="665" trl="N">
+  <value column="Name" original="Month Day">Month Day</value>
   <value column="Description" original=""/>
  </row>
  <row id="666" trl="Y">
@@ -2328,6 +2376,22 @@
   <value column="Name" original="Make-To-Order">Feito por Encomenda</value>
   <value column="Description" original=""/>
  </row>
+ <row id="744" trl="N">
+  <value column="Name" original="Previous">Previous</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="745" trl="N">
+  <value column="Name" original="Previous, Spare">Previous, Spare</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="746" trl="N">
+  <value column="Name" original="Future">Future</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="747" trl="N">
+  <value column="Name" original="Maintenance">Maintenance</value>
+  <value column="Description" original=""/>
+ </row>
  <row id="748" trl="Y">
   <value column="Name" original="Repair">Reparo</value>
   <value column="Description" original=""/>
@@ -2442,6 +2506,10 @@
  </row>
  <row id="777" trl="Y">
   <value column="Name" original="Last Invoice">Última Fatura</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="778" trl="N">
+  <value column="Name" original="User Defined">User Defined</value>
   <value column="Description" original=""/>
  </row>
  <row id="779" trl="Y">
@@ -2852,6 +2920,10 @@
   <value column="Name" original="Code 39 linear w/o Checksum">Code 39 linear w/o Checksum</value>
   <value column="Description" original=""/>
  </row>
+ <row id="883" trl="N">
+  <value column="Name" original="Private Information">Private Information</value>
+  <value column="Description" original=""/>
+ </row>
  <row id="884" trl="Y">
   <value column="Name" original="User 1">Usuário 1</value>
   <value column="Description" original=""/>
@@ -2866,6 +2938,22 @@
  </row>
  <row id="887" trl="Y">
   <value column="Name" original="User 4">Usuário 4</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="888" trl="N">
+  <value column="Name" original="CM Container">CM Container</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="889" trl="N">
+  <value column="Name" original="CM Container Stage">CM Container Stage</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="890" trl="N">
+  <value column="Name" original="CM Template">CM Template</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="891" trl="N">
+  <value column="Name" original="CM Media">CM Media</value>
   <value column="Description" original=""/>
  </row>
  <row id="892" trl="Y">
@@ -3068,6 +3156,14 @@
   <value column="Name" original="Forum (threaded)">Forum (threaded)</value>
   <value column="Description" original=""/>
  </row>
+ <row id="50001" trl="N">
+  <value column="Name" original="Local Transfer">Local Transfer</value>
+  <value column="Description" original="This type of transfer will transfer objects to the same Adempiere instance">This type of transfer will transfer objects to the same Adempiere instance</value>
+ </row>
+ <row id="50002" trl="N">
+  <value column="Name" original="Remote Transfer">Remote Transfer</value>
+  <value column="Description" original="This type of transfer will transfer objects to another Adempiere installation accessible by network.">This type of transfer will transfer objects to another Adempiere installation accessible by network.</value>
+ </row>
  <row id="50003" trl="Y">
   <value column="Name" original="XML File">Arquivo XML</value>
   <value column="Description" original="This type of transfer will create a XML file ">This type of transfer will create a XML file </value>
@@ -3136,6 +3232,10 @@
   <value column="Name" original="Sybase">Sybase</value>
   <value column="Description" original="Sybase Database">Sybase Database</value>
  </row>
+ <row id="50020" trl="N">
+  <value column="Name" original="Workbench">Workbench</value>
+  <value column="Description" original=""/>
+ </row>
  <row id="50021" trl="Y">
   <value column="Name" original="File - Code or other">File - Code or other</value>
   <value column="Description" original=""/>
@@ -3169,8 +3269,8 @@
   <value column="Description" original=""/>
  </row>
  <row id="50029" trl="Y">
-  <value column="Name" original="Code Snipit">Code Snipit</value>
-  <value column="Description" original="Replace a code snipit with in a file">Replace a code snipit with in a file</value>
+  <value column="Name" original="Code Snippet">Code Snipit</value>
+  <value column="Description" original="Replace a code snippet with in a file">Replace a code snipit with in a file</value>
  </row>
  <row id="50030" trl="Y">
   <value column="Name" original="SQL Statement">SQL Statement</value>
@@ -3191,6 +3291,14 @@
  <row id="50034" trl="Y">
   <value column="Name" original="File">Arquivo</value>
   <value column="Description" original="Package is file based">Package is file based</value>
+ </row>
+ <row id="50035" trl="N">
+  <value column="Name" original="WebService">WebService</value>
+  <value column="Description" original="Package is available via WebService">Package is available via WebService</value>
+ </row>
+ <row id="50037" trl="N">
+  <value column="Name" original="Ask user (for future use)">Ask user (for future use)</value>
+  <value column="Description" original=""/>
  </row>
  <row id="50038" trl="Y">
   <value column="Name" original="Don't show help">Não Mostrar Ajuda</value>
@@ -3266,11 +3374,11 @@
  </row>
  <row id="53229" trl="Y">
   <value column="Name" original="Client">Empresa</value>
-  <value column="Description" original="Allowed system and client configuration">Allowed system and client configuration</value>
+  <value column="Description" original="Allowed system and tenant configuration">Allowed system and client configuration</value>
  </row>
  <row id="53230" trl="Y">
   <value column="Name" original="Organization">Organização</value>
-  <value column="Description" original="Allowed system, client and organization configuration">Allowed system, client and organization configuration</value>
+  <value column="Description" original="Allowed system, tenant and organization configuration">Allowed system, client and organization configuration</value>
  </row>
  <row id="53232" trl="Y">
   <value column="Name" original="Maintenance Order">Ordem de Manutenção</value>
@@ -3314,6 +3422,10 @@
  </row>
  <row id="53247" trl="Y">
   <value column="Name" original="Work Station">Estação de Trabalho</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53248" trl="N">
+  <value column="Name" original="User Workbench">User Workbench</value>
   <value column="Description" original=""/>
  </row>
  <row id="53249" trl="Y">
@@ -3756,6 +3868,10 @@
   <value column="Name" original="Default">Padrão</value>
   <value column="Description" original="Default">Padrão</value>
  </row>
+ <row id="53367" trl="N">
+  <value column="Name" original="Inception to date">Inception to date</value>
+  <value column="Description" original="Revaluate each year seperately">Revaluate each year seperately</value>
+ </row>
  <row id="53368" trl="Y">
   <value column="Name" original="Year Balances">Balanços Anuais</value>
   <value column="Description" original="Revaluate current year to date balances and then revaluates the beginning balance">Revaluate current year to date balances and then revaluates the beginning balance</value>
@@ -3828,9 +3944,21 @@
   <value column="Name" original="Theft">Roubo</value>
   <value column="Description" original="Asset Stolen">Roubo</value>
  </row>
+ <row id="53386" trl="N">
+  <value column="Name" original="Cash">Cash</value>
+  <value column="Description" original="Sold for cash">Sold for cash</value>
+ </row>
+ <row id="53387" trl="N">
+  <value column="Name" original="Simple">Simple</value>
+  <value column="Description" original="No cash or trade">No cash or trade</value>
+ </row>
  <row id="53388" trl="Y">
   <value column="Name" original="Trade">Venda</value>
   <value column="Description" original="Traded in">Venda</value>
+ </row>
+ <row id="53389" trl="N">
+  <value column="Name" original="Trade w/cash">Trade w/cash</value>
+  <value column="Description" original="Traded In with cash">Traded In with cash</value>
  </row>
  <row id="53390" trl="N">
   <value column="Name" original="Capitalized Lease">Capitalized Lease</value>
@@ -3927,6 +4055,10 @@
  <row id="53413" trl="Y">
   <value column="Name" original="Invoice">Fatura</value>
   <value column="Description" original="This entry is related to an invoice">Este registro está relacionado a uma fatura.</value>
+ </row>
+ <row id="53414" trl="N">
+  <value column="Name" original="Journal Entry">Journal Entry</value>
+  <value column="Description" original="The entry was created from a journal entry">The entry was created from a journal entry</value>
  </row>
  <row id="53415" trl="Y">
   <value column="Name" original="Manual">Manual</value>
@@ -4320,6 +4452,10 @@
   <value column="Name" original="Implicit">Implícito</value>
   <value column="Description" original=""/>
  </row>
+ <row id="53555" trl="N">
+  <value column="Name" original="Explicit">Explicit</value>
+  <value column="Description" original=""/>
+ </row>
  <row id="53556" trl="N">
   <value column="Name" original="Measure for Performance Analysis">Measure for Performance Analysis</value>
   <value column="Description" original=""/>
@@ -4422,6 +4558,18 @@
  </row>
  <row id="53604" trl="Y">
   <value column="Name" original="Project">Projeto</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53605" trl="N">
+  <value column="Name" original="Cash_">Cash_</value>
+  <value column="Description" original="Sold for cash">Sold for cash</value>
+ </row>
+ <row id="53606" trl="N">
+  <value column="Name" original="Partial Retirement">Partial Retirement</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="53607" trl="N">
+  <value column="Name" original="Preservation">Preservation</value>
   <value column="Description" original=""/>
  </row>
  <row id="53608" trl="N">
@@ -4641,7 +4789,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="53711" trl="Y">
-  <value column="Name" original="Requistion">Requisição</value>
+  <value column="Name" original="Requisition">Requisição</value>
   <value column="Description" original=""/>
  </row>
  <row id="53712" trl="Y">
@@ -4822,7 +4970,7 @@
  </row>
  <row id="200050" trl="Y">
   <value column="Name" original="Client">Cliente</value>
-  <value column="Description" original="Client">Client</value>
+  <value column="Description" original="Tenant">Client</value>
  </row>
  <row id="200051" trl="Y">
   <value column="Name" original="Everybody">Todo o mundo</value>
@@ -5213,11 +5361,11 @@
   <value column="Description" original=""/>
  </row>
  <row id="200161" trl="N">
-  <value column="Name" original="Do Not Create">Não Criar</value>
+  <value column="Name" original="Do Not Create - Ignore">Não Criar</value>
   <value column="Description" original=""/>
  </row>
  <row id="200162" trl="Y">
-  <value column="Name" original="No Action">Sem Ação</value>
+  <value column="Name" original="No Action - Forbid Deletion">Sem Ação</value>
   <value column="Description" original=""/>
  </row>
  <row id="200163" trl="Y">
@@ -5268,6 +5416,14 @@
   <value column="Name" original="Process">Processo</value>
   <value column="Description" original=""/>
  </row>
+ <row id="200190" trl="N">
+  <value column="Name" original="Order">Order</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200191" trl="N">
+  <value column="Name" original="RMA">RMA</value>
+  <value column="Description" original=""/>
+ </row>
  <row id="200261" trl="N">
   <value column="Name" original="User Info">User Info</value>
   <value column="Description" original="Show a info window">Show a info window</value>
@@ -5312,9 +5468,25 @@
   <value column="Name" original="Detail">Detalhes</value>
   <value column="Description" original=""/>
  </row>
+ <row id="200344" trl="N">
+  <value column="Name" original="Material Management System">Material Management System</value>
+  <value column="Description" original=""/>
+ </row>
  <row id="200345" trl="Y">
   <value column="Name" original="Payment">Pagamento</value>
   <value column="Description" original=""/>
+ </row>
+ <row id="200347" trl="N">
+  <value column="Name" original="Form">Form</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200348" trl="N">
+  <value column="Name" original="Sort">Sort</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200352" trl="N">
+  <value column="Name" original="Reference">Reference</value>
+  <value column="Description" original="Reference">Reference</value>
  </row>
  <row id="200356" trl="N">
   <value column="Name" original="SQL Mandatory">SQL Mandatory</value>
@@ -5363,6 +5535,14 @@
  <row id="200445" trl="N">
   <value column="Name" original="Info Window">Info Window</value>
   <value column="Description" original=""/>
+ </row>
+ <row id="200446" trl="N">
+  <value column="Name" original="Separate Tax Posting">Separate Tax Posting</value>
+  <value column="Description" original="Tax is calculated on the full amount of the item and posted separately.">Tax is calculated on the full amount of the item and posted separately.</value>
+ </row>
+ <row id="200447" trl="N">
+  <value column="Name" original="Distribute Tax with Relevant Expense">Distribute Tax with Relevant Expense</value>
+  <value column="Description" original="Tax amount is added to the item amount during account posting time and for updating of Product Cost.">Tax amount is added to the item amount during account posting time and for updating of Product Cost.</value>
  </row>
  <row id="200448" trl="N">
   <value column="Name" original="Deferred">Deferred</value>
@@ -5448,8 +5628,300 @@
   <value column="Name" original="According to threshold">According to threshold</value>
   <value column="Description" original=""/>
  </row>
+ <row id="200477" trl="N">
+  <value column="Name" original="Dotted">Dotted</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200478" trl="N">
+  <value column="Name" original="Dashed">Dashed</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200479" trl="N">
+  <value column="Name" original="Double Dotted">Double Dotted</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200480" trl="N">
+  <value column="Name" original="Double Dashed">Double Dashed</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200481" trl="N">
+  <value column="Name" original="Double Solid">Double Solid</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200482" trl="N">
+  <value column="Name" original="Solid">Solid</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200483" trl="N">
+  <value column="Name" original="Blank line">Blank line</value>
+  <value column="Description" original=""/>
+ </row>
  <row id="200491" trl="Y">
   <value column="Name" original="XLSX">XLSX - Excel</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200492" trl="N">
+  <value column="Name" original="Data Single">Data Single</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200493" trl="N">
+  <value column="Name" original="Hundred">Hundred</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200494" trl="N">
+  <value column="Name" original="Thousand">Thousand</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200495" trl="N">
+  <value column="Name" original="Import">Import</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200496" trl="N">
+  <value column="Name" original="Export">Export</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200497" trl="N">
+  <value column="Name" original="OAuth2">OAuth2</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200498" trl="N">
+  <value column="Name" original="SAML (not implemented yet)">SAML (not implemented yet)</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200499" trl="N">
+  <value column="Name" original="Calendar">Calendar</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200500" trl="N">
+  <value column="Name" original="EMail">EMail</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200501" trl="N">
+  <value column="Name" original="Document">Document</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200502" trl="N">
+  <value column="Name" original="Profile">Profile</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200503" trl="N">
+  <value column="Name" original="Storage">Storage</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200504" trl="N">
+  <value column="Name" original="Script">Script</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200505" trl="N">
+  <value column="Name" original="HTML as Attachment">HTML as Attachment</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200506" trl="N">
+  <value column="Name" original="Parse Images to Attachments">Parse Images to Attachments</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200507" trl="N">
+  <value column="Name" original="Time-Based One-Time Password">Time-Based One-Time Password</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200508" trl="N">
+  <value column="Name" original="EMail">EMail</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200510" trl="N">
+  <value column="Name" original="Something you Know">Something you Know</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200511" trl="N">
+  <value column="Name" original="Something you Have">Something you Have</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200512" trl="N">
+  <value column="Name" original="Something you Are (Biometrics)">Something you Are (Biometrics)</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200513" trl="N">
+  <value column="Name" original="Location">Location</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200514" trl="N">
+  <value column="Name" original="System">System</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200515" trl="N">
+  <value column="Name" original="Ntp">Ntp</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200516" trl="N">
+  <value column="Name" original="No">No</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200517" trl="N">
+  <value column="Name" original="Only Report Period">Only Report Period</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200518" trl="N">
+  <value column="Name" original="All Adjustment Periods">All Adjustment Periods</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200519" trl="N">
+  <value column="Name" original="Script JSR223">Script JSR223</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200521" trl="N">
+  <value column="Name" original="Shell Script">Shell Script</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200528" trl="N">
+  <value column="Name" original="Customer Account">Customer Account</value>
+  <value column="Description" original="Charge to receiver/customer shipper account">Charge to receiver/customer shipper account</value>
+ </row>
+ <row id="200544" trl="N">
+  <value column="Name" original="Gauge Indicator">Gauge Indicator</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200561" trl="N">
+  <value column="Name" original="Previous">Previous</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200562" trl="N">
+  <value column="Name" original="Next">Next</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200563" trl="N">
+  <value column="Name" original="Current">Current</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200564" trl="N">
+  <value column="Name" original="Before">Before</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200565" trl="N">
+  <value column="Name" original="After">After</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200566" trl="N">
+  <value column="Name" original="On">On</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200567" trl="N">
+  <value column="Name" original="Between">Between</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200568" trl="N">
+  <value column="Name" original="Quick">Quick</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200600" trl="N">
+  <value column="Name" original="January">January</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200601" trl="N">
+  <value column="Name" original="February">February</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200602" trl="N">
+  <value column="Name" original="March">March</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200603" trl="N">
+  <value column="Name" original="April">April</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200604" trl="N">
+  <value column="Name" original="May">May</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200605" trl="N">
+  <value column="Name" original="June">June</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200606" trl="N">
+  <value column="Name" original="July">July</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200607" trl="N">
+  <value column="Name" original="August">August</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200608" trl="N">
+  <value column="Name" original="September">September</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200609" trl="N">
+  <value column="Name" original="October">October</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200610" trl="N">
+  <value column="Name" original="November">November</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200611" trl="N">
+  <value column="Name" original="December">December</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200612" trl="N">
+  <value column="Name" original="First Quarter">First Quarter</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200613" trl="N">
+  <value column="Name" original="Second Quarter">Second Quarter</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200614" trl="N">
+  <value column="Name" original="Third Quarter">Third Quarter</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200615" trl="N">
+  <value column="Name" original="Fourth Quarter">Fourth Quarter</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200620" trl="N">
+  <value column="Name" original="Table">Table</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200621" trl="N">
+  <value column="Name" original="ReportView Column">ReportView Column</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200622" trl="N">
+  <value column="Name" original="Date Editor and Range Picker">Date Editor and Range Picker</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200623" trl="N">
+  <value column="Name" original="Text and Range Picker">Text and Range Picker</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200626" trl="N">
+  <value column="Name" original="No">No</value>
+  <value column="Description" original="No Inactive Records">No Inactive Records</value>
+ </row>
+ <row id="200627" trl="N">
+  <value column="Name" original="Yes">Yes</value>
+  <value column="Description" original="Show all records (active/inactive)">Show all records (active/inactive)</value>
+ </row>
+ <row id="200628" trl="N">
+  <value column="Name" original="Document closed">Document closed</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200629" trl="N">
+  <value column="Name" original="Document Close Period">Document Close Period</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200635" trl="N">
+  <value column="Name" original="Ago">Ago</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200636" trl="N">
+  <value column="Name" original="Do Nothing">Do Nothing</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200640" trl="N">
+  <value column="Name" original="Model Set Null">Model Set Null</value>
+  <value column="Description" original=""/>
+ </row>
+ <row id="200641" trl="N">
+  <value column="Name" original="Model No Action - Forbid Deletion">Model No Action - Forbid Deletion</value>
   <value column="Description" original=""/>
  </row>
 </idempiereTrl>

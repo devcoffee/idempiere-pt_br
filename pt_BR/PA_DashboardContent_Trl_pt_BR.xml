@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 7.1_2019-11-22 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="pt_BR" table="PA_DashboardContent">
+<!--iDempiere(r) Release 11_2022-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2023 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="pt_BR" table="PA_DashboardContent">
+ <row id="50000" trl="N">
+  <value column="Name" original="Activities">Activities</value>
+  <value column="Description" original="Workflow activities, notices and requests">Workflow activities, notices and requests</value>
+  <value column="HTML" original=""/>
+ </row>
  <row id="50001" trl="Y">
   <value column="Name" original="Favourites">Favoritos</value>
   <value column="Description" original="User favourities">Itens Favoritos do Usuário</value>
@@ -15,14 +20,14 @@
   <value column="Description" original="Performance meters">Medidas de Desempenho</value>
   <value column="HTML" original=""/>
  </row>
- <row id="50004" trl="N">
-  <value column="Name" original="Calendar">Calendar</value>
-  <value column="Description" original="Request Calendar">Request Calendar</value>
-  <value column="HTML" original=""/>
- </row>
  <row id="200000" trl="Y">
   <value column="Name" original="Recent Items">Itens Recentes</value>
   <value column="Description" original="Recent items">Itens Recentes</value>
+  <value column="HTML" original=""/>
+ </row>
+ <row id="200001" trl="N">
+  <value column="Name" original="Menu">Menu</value>
+  <value column="Description" original="Menu">Menu</value>
   <value column="HTML" original=""/>
  </row>
  <row id="200002" trl="Y">
@@ -34,5 +39,10 @@
   <value column="Name" original="Activities">Atividades</value>
   <value column="Description" original=""/>
   <value column="HTML" original=""/>
+ </row>
+ <row id="200005" trl="N">
+  <value column="Name" original="Donate">Donate</value>
+  <value column="Description" original=""/>
+  <value column="HTML" original="&lt;iframe src=&quot;https://www.idempiere.org/short-donate/&quot; style=&quot;border-top-width: 0px;border-bottom-width: 0px;border-right-width: 0px;border-left-width: 0px;width: 100%;height: 450px;&quot;&gt;&lt;/iframe&gt;" xml:space="preserve"><![CDATA[<iframe src="https://www.idempiere.org/short-donate/" style="border-top-width: 0px;border-bottom-width: 0px;border-right-width: 0px;border-left-width: 0px;width: 100%;height: 450px;"></iframe>]]></value>
  </row>
 </idempiereTrl>

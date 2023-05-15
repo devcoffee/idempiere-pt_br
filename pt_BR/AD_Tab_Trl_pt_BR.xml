@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 7.1_2019-11-22 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="pt_BR" table="AD_Tab">
+<!--iDempiere(r) Release 11_2022-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2023 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="pt_BR" table="AD_Tab">
  <row id="100" trl="Y">
   <value column="Name" original="Table">Tabela</value>
   <value column="CommitWarning" original=""/>
@@ -112,7 +112,7 @@
   <value column="Name" original="Role">Perfil (Função)</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define responsibility roles">Definir funções (perfis) e responsabilidades</value>
-  <value column="Help" original="Define the role and add the client and organizations the role has access to. You can give users access to this role and modify the access of this role to windows, forms, processes and reports as well as tasks. &lt;br&gt;&#10;If the Role User Level is Manual, the assigned acces rights are not automatically updated (e.g. if a role has a restricted number of Windows/Processes it can access). You need to add organizational access unless the role has access to all organizations. The SuperUser and the user creating a new role are assigned to the role automatically.  &lt;br&gt;&#10;If you select an Organization Tree, the user has access to the leaves of  summary organizations.&#10;Note: You cannot change the System Administrator role." xml:space="preserve"><![CDATA[Define a função (perfil) e acrescenta as empresas e organizações a que esta função tem acesso. Você pode dar acesso de usuários a esta função (papel) e modificar o acesso desta função a janelas, formulários, processos e relatórios assim como tarefas. <br> Se o Nível de Usuário de Função estiver em Manual, os direitos de acesso designados não são automaticamente atualizados (ex. se um papel tiver um número restrito de Janelas/Processos que ele pode acessar). Você precisa adicionar acesso organizacional a menos que o papel (função) tenha acesso a todas as organizações. O novo Papel (Função) é atribuido automaticamente ao SuperUsuário e ao usuário que estiver criando o papel.  <br> Se você selecionar uma Árvore de Organizacional, o usuário terá acesso às folhas das sub Organizações. Nota: Você não pode alterar o papel do Administrador do Sistema.]]></value>
+  <value column="Help" original="Define the role and add the tenant and organizations the role has access to. You can give users access to this role and modify the access of this role to windows, forms, processes and reports as well as tasks. &lt;br&gt;&#10;If the Role User Level is Manual, the assigned acces rights are not automatically updated (e.g. if a role has a restricted number of Windows/Processes it can access). You need to add organizational access unless the role has access to all organizations. The SuperUser and the user creating a new role are assigned to the role automatically.  &lt;br&gt;&#10;If you select an Organization Tree, the user has access to the leaves of  summary organizations.&#10;Note: You cannot change the System Administrator role." xml:space="preserve"><![CDATA[Define a função (perfil) e acrescenta as empresas e organizações a que esta função tem acesso. Você pode dar acesso de usuários a esta função (papel) e modificar o acesso desta função a janelas, formulários, processos e relatórios assim como tarefas. <br> Se o Nível de Usuário de Função estiver em Manual, os direitos de acesso designados não são automaticamente atualizados (ex. se um papel tiver um número restrito de Janelas/Processos que ele pode acessar). Você precisa adicionar acesso organizacional a menos que o papel (função) tenha acesso a todas as organizações. O novo Papel (Função) é atribuido automaticamente ao SuperUsuário e ao usuário que estiver criando o papel.  <br> Se você selecionar uma Árvore de Organizacional, o usuário terá acesso às folhas das sub Organizações. Nota: Você não pode alterar o papel do Administrador do Sistema.]]></value>
  </row>
  <row id="120" trl="Y">
   <value column="Name" original="User Assignment">Designação de Usuário</value>
@@ -130,7 +130,7 @@
   <value column="Name" original="Node">Nó</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define workflow nodes">Definir Nós de Fluxo de Trabalho</value>
-  <value column="Help" original="The Node Tab defines each Node, Activity or step in this Workflow.&lt;br&gt;&#10;The action (actibity) type determines the execution: &quot;Route&quot; may be used in routing control conditions.  &quot;None&quot; identifies manual execution." xml:space="preserve"><![CDATA[A Aba "Nó" define cada Nó, Atividade ou passo neste Fluxo de Trabalho.<br> O tipo de ação (atividade) determina a execução: "Rota" pode ser usada em condições de controle de roteamento.  "Nenhum" identifica execução manual.]]></value>
+  <value column="Help" original="The Node Tab defines each Node, Activity or step in this Workflow.&lt;br&gt;&#10;The action (activity) type determines the execution: &quot;Route&quot; may be used in routing control conditions.  &quot;None&quot; identifies manual execution." xml:space="preserve"><![CDATA[A Aba "Nó" define cada Nó, Atividade ou passo neste Fluxo de Trabalho.<br> O tipo de ação (atividade) determina a execução: "Rota" pode ser usada em condições de controle de roteamento.  "Nenhum" identifica execução manual.]]></value>
  </row>
  <row id="123" trl="Y">
   <value column="Name" original="Node Translation">Tradução de Nó</value>
@@ -143,6 +143,12 @@
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Workflow Node Transition">Transição de Nó de Fluxo de Trabalho</value>
   <value column="Help" original="The Next Nodes Tab defines the order or Nodes or Steps in a Workflow.">A Aba "Próximos Nós" define a ordem ou Nós, ou Passos em um Fluxo de Trabalho.</value>
+ </row>
+ <row id="125" trl="N">
+  <value column="Name" original="Previous Node">Previous Node</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="126" trl="Y">
   <value column="Name" original="Task Translation">Tradução de Tarefas</value>
@@ -217,10 +223,10 @@
   <value column="Help" original="The Organization Tab is used to define an Organization.  Each Organization has a Key and Name and optionally a Description.  &#10;When adding a new organization, you must re-login to be able to access the new organization.">A Aba "Organização" é usada para definir uma Organização.  Cada Organização tem uma Chave e um Nome e opcionalmente uma Descrição. Quando acrescentar uma nova organização, você deve re-logar para poder ter acesso à nova organização.</value>
  </row>
  <row id="145" trl="Y">
-  <value column="Name" original="Client">Empresa</value>
-  <value column="CommitWarning" original="Create a new client via &quot;Initial Client Setup&quot;. You can only change information here!  You need execute Cache Reset and re-login for most changes made here to be effective.  The change of the Material Policy applies to future transactions.">Crie uma nova Empresa via "Configuração Inicial de Empresas". Você só pode alterar informações aqui!  Você precisa fazer novo login e reiniciar o seu servidor de aplicação (BrERP) para que a maioria das alterações feitas aqui sejam efetivadas.  A alteração da Política de Materiais se aplica às transações futuras.</value>
-  <value column="Description" original="Client/Tenant Definition">Definição de Empresa/Locatário</value>
-  <value column="Help" original="The Client Definition Tab defines a unique client.&#10;Do not create a new client in this window, but use &quot;Initial Client Setup&quot; (System Administrator Role) to set up the required security and access rules. If you create a new client here, you will not be able to view it and also the required client infrastructure would not have been set up.">A Aba "Definição de Empresa" define uma empresa exclusiva. Não crie uma nova empresa nesta janela, mas use "Configuração Inicial de Empresas" (No papel de Administrador de Sistema) para configurar a segurança e as regras de acesso necessárias. Se você criar uma nova empresa aqui, você não poderá vê-la e a também a infra-estrutura essencial da empresa não será configurada.</value>
+  <value column="Name" original="Tenant">Empresa</value>
+  <value column="CommitWarning" original="Create a new tenant via &quot;Initial Tenant Setup&quot;. You can only change information here!  You need execute Cache Reset and re-login for most changes made here to be effective.  The change of the Material Policy applies to future transactions.">Crie uma nova Empresa via "Configuração Inicial de Empresas". Você só pode alterar informações aqui!  Você precisa fazer novo login e reiniciar o seu servidor de aplicação (BrERP) para que a maioria das alterações feitas aqui sejam efetivadas.  A alteração da Política de Materiais se aplica às transações futuras.</value>
+  <value column="Description" original="Tenant Definition">Definição de Empresa/Locatário</value>
+  <value column="Help" original="The Tenant Definition Tab defines a unique tenant.&#10;Do not create a new tenant in this window, but use &quot;Initial Tenant Setup&quot; (System Administrator Role) to set up the required security and access rules. If you create a new tenant here, you will not be able to view it and also the required tenant infrastructure would not have been set up.">A Aba "Definição de Empresa" define uma empresa exclusiva. Não crie uma nova empresa nesta janela, mas use "Configuração Inicial de Empresas" (No papel de Administrador de Sistema) para configurar a segurança e as regras de acesso necessárias. Se você criar uma nova empresa aqui, você não poderá vê-la e a também a infra-estrutura essencial da empresa não será configurada.</value>
  </row>
  <row id="146" trl="Y">
   <value column="Name" original="Sequence">Seqüência</value>
@@ -273,7 +279,7 @@
  <row id="156" trl="Y">
   <value column="Name" original="Preference">Preferência</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Maintain System Client Org and User Preferences">Gerenciamento do Sistema, das Organizações, das Empresas, e das Preferências de Usuários</value>
+  <value column="Description" original="Maintain System Tenant Org and User Preferences">Gerenciamento do Sistema, das Organizações, das Empresas, e das Preferências de Usuários</value>
   <value column="Help" original=""/>
  </row>
  <row id="157" trl="Y">
@@ -313,10 +319,10 @@
   <value column="Help" original="The Document Definition Tab defines the processing parameters and controls for the document.  Note that shipments for automatic documents like POS/Warehouse Orders cannot have confirmations!">A Aba "Definição de Documento" define os parâmetros e controles de processamento de um documento.  Note que remessas para documentos automáticos tais como PDV/Pedidos de Armazens não podem ter confirmações!</value>
  </row>
  <row id="169" trl="Y">
-  <value column="Name" original="Client Info">Informações da Empresa</value>
+  <value column="Name" original="Tenant Info">Informações da Empresa</value>
   <value column="CommitWarning" original="You need to execute Cache Reset and re-login for most changes made here to be effective.">Você precisa fazer novo login e reiniciar o seu servidor de aplicação (Adempiere) para que a maioria das alterações feitas aqui sejam efetivadas.</value>
-  <value column="Description" original="Client Info">Informações da Empresa</value>
-  <value column="Help" original="The Client Info Tab defines the details for each client.  The accounting rules and high level defaults are defined here. The Calendar is used to determine if a period is open or closed.">A Aba "Informações da Empresa" define os detalhes de cada empresa.  As Regras Contábeis e padrões de alto nível são definidos aqui. O Calendário é usado para determinar se um período está aberto ou fechado.</value>
+  <value column="Description" original="Tenant Info">Informações da Empresa</value>
+  <value column="Help" original="The Tenant Info Tab defines the details for each tenant.  The accounting rules and high level defaults are defined here. The Calendar is used to determine if a period is open or closed.">A Aba "Informações da Empresa" define os detalhes de cada empresa.  As Regras Contábeis e padrões de alto nível são definidos aqui. O Calendário é usado para determinar se um período está aberto ou fechado.</value>
  </row>
  <row id="170" trl="Y">
   <value column="Name" original="Organization Info">Informações da Organização</value>
@@ -455,7 +461,7 @@
   <value column="Name" original="Accounting Schema">Esquema Contábil</value>
   <value column="CommitWarning" original="If you change the currency or costing method, you must reset all accounting transactions.&#10;For changes to become effective, you must execute Cache Reset. ">Se você alterar a moeda ou método de custeio, você tem que resetar todas as transações contábeis. Para as alterações se tornarem efetivas, você deve re-iniciar o Servidor de Aplicação e se re-logar. </value>
   <value column="Description" original="Define your Account Schema Structure">Definir sua Estrutura de Esquema Contábil"</value>
-  <value column="Help" original="The Accounting Schema Tab defines the controls used for accounting.  You can define multiple accounting schema per client (for parallel accounting).  &#10;Postings are generated for an accounting schema, if the schema is valid and you have defined GL and Default accounts and after completion of the Add / Copy Accounts process.">A Aba "Esquema Contábil" define os controles utilizados na contabilidade.  Você pode definir múltiplos esquemas contábeis por empresa (para contabilidade paralela). Após a finalização dos processos de Adicionar/Copiar Contas, os lançamento nos livros serão gerados para um Esquema Contábil, se o esquema for válido e você tiver definido o RG e Contas padrão.</value>
+  <value column="Help" original="The Accounting Schema Tab defines the controls used for accounting.  You can define multiple accounting schema per tenant (for parallel accounting).  &#10;Postings are generated for an accounting schema, if the schema is valid and you have defined GL and Default accounts and after completion of the Add / Copy Accounts process.">A Aba "Esquema Contábil" define os controles utilizados na contabilidade.  Você pode definir múltiplos esquemas contábeis por empresa (para contabilidade paralela). Após a finalização dos processos de Adicionar/Copiar Contas, os lançamento nos livros serão gerados para um Esquema Contábil, se o esquema for válido e você tiver definido o RG e Contas padrão.</value>
  </row>
  <row id="200" trl="Y">
   <value column="Name" original="General Ledger">Razão Geral</value>
@@ -541,6 +547,12 @@
   <value column="Description" original="Define Vendor Accounting">Definir Contabilidade de Fornecedores</value>
   <value column="Help" original="The Vendor Accounting Tab defines the default accounts to use when this business partner is referenced in an accounts payable transaction.">A Aba "Contabilidade de Fornecedores" define as contas padrão a serem usadas quando este parceiro de negócios for referenciado em uma transação de contas a pagar.</value>
  </row>
+ <row id="214" trl="N">
+  <value column="Name" original="Employee Accounting">Employee Accounting</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Define Employee Accounting">Define Employee Accounting</value>
+  <value column="Help" original="The Employee Accounting Tab defines the default accounts to use when this business partner is referenced on a expense reimbursement.">The Employee Accounting Tab defines the default accounts to use when this business partner is referenced on a expense reimbursement.</value>
+ </row>
  <row id="215" trl="Y">
   <value column="Name" original="City">Cidade</value>
   <value column="CommitWarning" original=""/>
@@ -564,6 +576,24 @@
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define Location">Definir Localização</value>
   <value column="Help" original="The Location Tab defines the physical location of a business partner.  A business partner may have multiple location records.">A Aba "Localização" define a localização física de um parceiro de negócios.  Um parceiro de negócios pode ter múltiplos registros de localização.</value>
+ </row>
+ <row id="223" trl="N">
+  <value column="Name" original="Customer">Customer</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Define Customer Parameters">Define Customer Parameters</value>
+  <value column="Help" original="The Customer Tab defines a Business Partner who is a customer of this organization.  If the Customer check box is selected then the necessary fields will display. ">The Customer Tab defines a Business Partner who is a customer of this organization.  If the Customer check box is selected then the necessary fields will display. </value>
+ </row>
+ <row id="224" trl="N">
+  <value column="Name" original="Vendor">Vendor</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Define Vendor Parameters">Define Vendor Parameters</value>
+  <value column="Help" original="The Vendor Tab defines a Business Partner that is a Vendor for this Organization.  If the Vendor check box is selected the necessary fields will display.">The Vendor Tab defines a Business Partner that is a Vendor for this Organization.  If the Vendor check box is selected the necessary fields will display.</value>
+ </row>
+ <row id="225" trl="N">
+  <value column="Name" original="Employee">Employee</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Define Employee Parameters">Define Employee Parameters</value>
+  <value column="Help" original="The Employee Tab defines a Business Partner who is an Employee of this organization.  If the Employee is also a Sales Representative then the check box should be selected.">The Employee Tab defines a Business Partner who is an Employee of this organization.  If the Employee is also a Sales Representative then the check box should be selected.</value>
  </row>
  <row id="226" trl="Y">
   <value column="Name" original="Bank Account">Conta Bancária</value>
@@ -733,6 +763,12 @@
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Enter Inventory Movement Line">Introduzir a Linha de Movimentação de Estoque</value>
   <value column="Help" original="The Move Line Tab defines the product and quantity to be moved and the location it is moving from and to.  ">A Aba "Linha de Movimento" define o produto, quantidade a ser movimentada e o local que ele está sendo movido de e para.  </value>
+ </row>
+ <row id="262" trl="N">
+  <value column="Name" original="Product Transactions">Product Transactions</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Transactions for stored Products">Transactions for stored Products</value>
+  <value column="Help" original=""/>
  </row>
  <row id="263" trl="Y">
   <value column="Name" original="Invoice">Fatura</value>
@@ -1066,6 +1102,12 @@ Imprimindo: - Usualmente, somente a informação da LDM é impressa - Para fatur
   <value column="Description" original="Charge Accounting">Contabilidade de Despesa</value>
   <value column="Help" original="The Accounting Tab defines the accounting parameters used for transactions including a charge or charges.">A Aba "Contabilidade" define os parâmetros contábeis usados para transações envolvendo um débito ou despesas.</value>
  </row>
+ <row id="332" trl="N">
+  <value column="Name" original="Accounting">Accounting</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Organization Accounting">Organization Accounting</value>
+  <value column="Help" original="The Organization Accounting Tab defines the default accounting parameters to be used by this Organization.">The Organization Accounting Tab defines the default accounting parameters to be used by this Organization.</value>
+ </row>
  <row id="333" trl="Y">
   <value column="Name" original="Accounting">Contabilidade</value>
   <value column="CommitWarning" original=""/>
@@ -1160,7 +1202,7 @@ Imprimindo: - Usualmente, somente a informação da LDM é impressa - Para fatur
   <value column="Name" original="Org Access">Acesso a Organização</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain Role Org Access">Gerenciamento de Acesso do Perfil à Organização</value>
-  <value column="Help" original="Add the client and organizations the user has access to. Entries here are ignored, if User Org Access is selected or the role has access to all roles.&lt;br&gt;&#10;Note that access information is cached and requires re-login or reset of cache." xml:space="preserve"><![CDATA[Acrescentar as Empresas e Organizações a que o usuário tem acesso. Estes lançamentos serão ignorados se o "Acesso de Usuários à Organização" for selecionado ou o perfil tiver acesso a todos os perfis.<br> Note que a informação de acesso é memorizada e requer re-login ou reset da memória cache.]]></value>
+  <value column="Help" original="Add the tenant and organizations the user has access to. Entries here are ignored, if User Org Access is selected or the role has access to all roles.&lt;br&gt;&#10;Note that access information is cached and requires re-login or reset of cache." xml:space="preserve"><![CDATA[Acrescentar as Empresas e Organizações a que o usuário tem acesso. Estes lançamentos serão ignorados se o "Acesso de Usuários à Organização" for selecionado ou o perfil tiver acesso a todos os perfis.<br> Note que a informação de acesso é memorizada e requer re-login ou reset da memória cache.]]></value>
  </row>
  <row id="352" trl="Y">
   <value column="Name" original="Payment Selection">Seleção de Pagamento</value>
@@ -1251,7 +1293,7 @@ Você pode escolher que somente valores positivos (Valor Convertido - Valor a Su
   <value column="Name" original="Performance Measure Calculation">Cálculo de Medição de Desempenho</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain your Performance Measure Calculation">Gerenciamento de Cálculos de Medidas de Desempenho</value>
-  <value column="Help" original="The Performance Measure Calculation defines how performance measures will be calculated. See examples.&lt;br&gt;&#10;The SELECT definition must contain the SELECT and FROM keywords in upper case, the WHERE definition must contain the WHERE keyword in upper case.  The main table must not have an alias!  The WHERE clause can only contain values of the main table (e.g. when selecting from Header and lines, only header variables can be used in the where clause) and be fully qualified if there is more then one table." xml:space="preserve"><![CDATA[A Aba "Cálculos de Medidas de Desempenho" define como as medidas de desempenho serão calculadas. See examples.<br> The SELECT definition must contain the SELECT and FROM keywords in upper case, the WHERE definition must contain the WHERE keyword in upper case.  The main table must not have an alias!  The WHERE clause can only contain values of the main table (e.g. when selecting from Header and lines, only header variables can be used in the where clause) and be fully qualified if there is more then one table. ]]></value>
+  <value column="Help" original="The Performance Measure Calculation defines how performance measures will be calculated. See examples.&lt;br&gt;&#10;The SELECT definition must contain the SELECT and FROM keywords in upper case.  The WHERE clause can only contain values of the main table (e.g. when selecting from Header and lines, only header variables can be used in the where clause) and be fully qualified if there is more then one table." xml:space="preserve"><![CDATA[A Aba "Cálculos de Medidas de Desempenho" define como as medidas de desempenho serão calculadas. See examples.<br> The SELECT definition must contain the SELECT and FROM keywords in upper case, the WHERE definition must contain the WHERE keyword in upper case.  The main table must not have an alias!  The WHERE clause can only contain values of the main table (e.g. when selecting from Header and lines, only header variables can be used in the where clause) and be fully qualified if there is more then one table. ]]></value>
  </row>
  <row id="370" trl="Y">
   <value column="Name" original="Achievement">Realização</value>
@@ -1569,7 +1611,7 @@ Você pode escolher que somente valores positivos (Valor Convertido - Valor a Su
   <value column="Name" original="Format Item">Item de Formato</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Print Format Item">Item de Formato de Impressão</value>
-  <value column="Help" original="Item in the print format maintaining layout information.  The following additional variables are available when printing:&#10;&lt;p&gt;@*Page@ - the current page number&#10;&lt;br&gt;@*PageCount@ - the total number of pages&#10;&lt;br&gt;@*MultiPageInfo@ - &quot;Page x of y&quot; - only printed if more than one page&#10;&lt;br&gt;@*CopyInfo@ - if it is a copy of the document &quot;Duplicate&quot; is printed&#10;&lt;br&gt;@*ReportName@ - name of the report&#10;&lt;br&gt;@*Header@ - Full Header with user/client/org name and connection&#10;&lt;br&gt;@*CurrentDate@ - the print date&#10;&lt;br&gt;@*CurrentDateTime@ - the print time&#10;&#10;&lt;p&gt;The layoit logic for forms is: &lt;br&gt;&#10;- if not printed: ignore &lt;br&gt;&#10;- set New Line Position &lt;br&gt;&#10;- new page &lt;br&gt;&#10;- new line, if something was printed since last new line&lt;br&gt;&#10;- format item&lt;br&gt;&#10;- print it (if not null/empty selected)&lt;br&gt;&#10;(i.e. supress null does not prevent new line)" xml:space="preserve"><![CDATA[Item no Formato de Impressão que contém as informações de disposição de impressão (layout).  As seguintes variáveis adicionais estão disponíveis ao imprimir: <p>@*Page@ - número da página atual <br>@*PageCount@ - número total de páginas <br>@*MultiPageInfo@ - "Página x de y" - somente impresso se houver mais de uma página <br>@*CopyInfo@ - Imprime "Duplicado" se for uma cópia de documento <br>@*ReportName@ - nome do relatório <br>@*Header@ - Cabeçalho Completo o nome e a conexão do usuário/empresa/organização <br>@*CurrentDate@ - data de impressão <br>@*CurrentDateTime@ - hora da impressão
+  <value column="Help" original="Item in the print format maintaining layout information.  The following additional variables are available when printing:&#10;&lt;p&gt;@*Page@ - the current page number&#10;&lt;br&gt;@*PageCount@ - the total number of pages&#10;&lt;br&gt;@*MultiPageInfo@ - &quot;Page x of y&quot; - only printed if more than one page&#10;&lt;br&gt;@*CopyInfo@ - if it is a copy of the document &quot;Duplicate&quot; is printed&#10;&lt;br&gt;@*ReportName@ - name of the report&#10;&lt;br&gt;@*Header@ - Full Header with user/tenant/org name and connection&#10;&lt;br&gt;@*CurrentDate@ - the print date&#10;&lt;br&gt;@*CurrentDateTime@ - the print time&#10;&#10;&lt;p&gt;The layoit logic for forms is: &lt;br&gt;&#10;- if not printed: ignore &lt;br&gt;&#10;- set New Line Position &lt;br&gt;&#10;- new page &lt;br&gt;&#10;- new line, if something was printed since last new line&lt;br&gt;&#10;- format item&lt;br&gt;&#10;- print it (if not null/empty selected)&lt;br&gt;&#10;(i.e. supress null does not prevent new line)" xml:space="preserve"><![CDATA[Item no Formato de Impressão que contém as informações de disposição de impressão (layout).  As seguintes variáveis adicionais estão disponíveis ao imprimir: <p>@*Page@ - número da página atual <br>@*PageCount@ - número total de páginas <br>@*MultiPageInfo@ - "Página x de y" - somente impresso se houver mais de uma página <br>@*CopyInfo@ - Imprime "Duplicado" se for uma cópia de documento <br>@*ReportName@ - nome do relatório <br>@*Header@ - Cabeçalho Completo o nome e a conexão do usuário/empresa/organização <br>@*CurrentDate@ - data de impressão <br>@*CurrentDateTime@ - hora da impressão
 
 <p>O layout lógico para formulários é: <br> - se não for imprimido: ignore <br> - configure a Nova Posição da Linha <br> - nova página <br> - nova linha, se algo foi impresso desde a ultima nova linha<br> - item de formato<br> - imprimir (se não for selecionado nulo/vazio)<br> (i.e. suprimir nulo não previne nova linha)]]></value>
  </row>
@@ -1613,6 +1655,12 @@ Você pode escolher que somente valores positivos (Valor Convertido - Valor a Su
   <value column="Name" original="Item Translation">Tradução de Item</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Print Format Translation">Tradução de Formato de Impressão</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="434" trl="N">
+  <value column="Name" original="Graph">Graph</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Define Graph to be included">Define Graph to be included</value>
   <value column="Help" original=""/>
  </row>
  <row id="435" trl="Y">
@@ -1710,6 +1758,12 @@ Você pode escolher que somente valores positivos (Valor Convertido - Valor a Su
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Asset used internally or by customers">Ativo usado internamente ou por clientes</value>
   <value column="Help" original="An asset is either created by purchasing or by delivering a product.  An asset can be used internally or be a customer asset.">Um ativo é criado ou ao comprar ou ao entregar um produto.  Um ativo pode ser usado internamente ou ser um ativo de cliente.</value>
+ </row>
+ <row id="451" trl="N">
+  <value column="Name" original="Delivery">Delivery</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Delivery or availability">Delivery or availability</value>
+  <value column="Help" original="Record of delivery or availability">Record of delivery or availability</value>
  </row>
  <row id="452" trl="Y">
   <value column="Name" original="Asset Group">Grupo de Ativo</value>
@@ -2390,6 +2444,12 @@ Você pode escolher que somente valores positivos (Valor Convertido - Valor a Su
   <value column="Description" original="All Invoice Liness where the Agent &quot;owns&quot; the Invoice, the Business Partner or the Product">Todas as Linhas de Fatura onde o Agente "possui" a Fatura, o Parceiro de Negócios ou o Produto</value>
   <value column="Help" original=""/>
  </row>
+ <row id="569" trl="N">
+  <value column="Name" original="Accounting">Accounting</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Currency Accounting">Currency Accounting</value>
+  <value column="Help" original="The Accounting Tab defines the accounting parameters used for transactions including a currency. Please nore that if not defined, the default accounts of the Accounting Schema are used!">The Accounting Tab defines the accounting parameters used for transactions including a currency. Please nore that if not defined, the default accounts of the Accounting Schema are used!</value>
+ </row>
  <row id="570" trl="Y">
   <value column="Name" original="Conversion Type">Tipo de Conversão</value>
   <value column="CommitWarning" original=""/>
@@ -2443,6 +2503,24 @@ Você pode escolher que somente valores positivos (Valor Convertido - Valor a Su
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Responsible for Workflow Execution">Responsável pela Execução do Fluxo de Trabalho</value>
   <value column="Help" original="The ultimate responsibility for a workflow is with an actual user. The Workflow Responsible allows to define ways to find that actual User.">A responsabilidade final por um Fluxo de Trabalho é do usuário real. A Responsabilidade do Fluxo de Trabalho permite definir meios de encontrar aquele usuário real.</value>
+ </row>
+ <row id="579" trl="N">
+  <value column="Name" original="Block">Block</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Workflow Transaction Execution Block">Workflow Transaction Execution Block</value>
+  <value column="Help" original="A workflow execution block is optional and allows all work to be performed in a single transaction. If one step (node activity) fails, the entire work is rolled back.">A workflow execution block is optional and allows all work to be performed in a single transaction. If one step (node activity) fails, the entire work is rolled back.</value>
+ </row>
+ <row id="580" trl="N">
+  <value column="Name" original="Data">Data</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Workflow Process Context">Workflow Process Context</value>
+  <value column="Help" original="Context information of the workflow process and activity">Context information of the workflow process and activity</value>
+ </row>
+ <row id="581" trl="N">
+  <value column="Name" original="Result">Result</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Result of the Workflow Process Activity">Result of the Workflow Process Activity</value>
+  <value column="Help" original="Activity Result of the execution of the Workflow Process Instrance">Activity Result of the execution of the Workflow Process Instrance</value>
  </row>
  <row id="582" trl="Y">
   <value column="Name" original="Event">Evento</value>
@@ -2755,6 +2833,18 @@ Você pode escolher que somente valores positivos (Valor Convertido - Valor a Su
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Dinning Run Line">Linha de Execução de Cobrança</value>
   <value column="Help" original="Maintain the information of the dunning letter line">Gerenciamento da informaçãp da linha da carta de cobrança</value>
+ </row>
+ <row id="636" trl="N">
+  <value column="Name" original="Org Assignment">Org Assignment</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="User Assigment to Organization">User Assigment to Organization</value>
+  <value column="Help" original="Assign Users to Organizations">Assign Users to Organizations</value>
+ </row>
+ <row id="637" trl="N">
+  <value column="Name" original="Org Assignment">Org Assignment</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="User Assigment to Organization">User Assigment to Organization</value>
+  <value column="Help" original="Assign Users to Organizations">Assign Users to Organizations</value>
  </row>
  <row id="638" trl="Y">
   <value column="Name" original="Log">Registro</value>
@@ -3104,7 +3194,7 @@ EX. SELECT (CASE WHEN COUNT(*) > 0 THEN 'Y' ELSE 'N' END) FROM RV_OpenItem opi W
   <value column="Name" original="Org Access">Acesso Org</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Maintain User Org Access">Gerenciamento de Acesso de Usuários à Organização</value>
-  <value column="Help" original="Add the client and organizations the user has access to. Entries here are ignored, if in the Role, User Org Access is not selected or the role has access to all roles.&lt;br&gt;&#10;Note that access information is cached and requires re-login or reset of cache." xml:space="preserve"><![CDATA[Acrescentar as Empresas e Organizações a que o usuário tem acesso. Estes lançamentos serão ignorados se, neste papel, o "Acesso de Usuários à Organização" não for selecionado ou o papel tiver acesso a todos os papéis.<br> Note que a informação de acesso é memorizada e requer re-login ou reset da memória cache.]]></value>
+  <value column="Help" original="Add the tenant and organizations the user has access to. Entries here are ignored, if in the Role, User Org Access is not selected or the role has access to all roles.&lt;br&gt;&#10;Note that access information is cached and requires re-login or reset of cache." xml:space="preserve"><![CDATA[Acrescentar as Empresas e Organizações a que o usuário tem acesso. Estes lançamentos serão ignorados se, neste papel, o "Acesso de Usuários à Organização" não for selecionado ou o papel tiver acesso a todos os papéis.<br> Note que a informação de acesso é memorizada e requer re-login ou reset da memória cache.]]></value>
  </row>
  <row id="697" trl="Y">
   <value column="Name" original="Landed Costs">Custos Finais</value>
@@ -3166,6 +3256,12 @@ EX. SELECT (CASE WHEN COUNT(*) > 0 THEN 'Y' ELSE 'N' END) FROM RV_OpenItem opi W
   <value column="Description" original="Maintain Request Category">Gerenciamento da Categoria da Solicitação</value>
   <value column="Help" original="Category or Topic of the Request ">Categoria ou Tópico da Solicitação </value>
  </row>
+ <row id="707" trl="N">
+  <value column="Name" original="Download">Download</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Maintain Product Downloads">Maintain Product Downloads</value>
+  <value column="Help" original="Define downloads for a product.  If the product is an asset, the user can download the data.">Define downloads for a product.  If the product is an asset, the user can download the data.</value>
+ </row>
  <row id="708" trl="Y">
   <value column="Name" original="User Mail">Enviar mensagem para usuário</value>
   <value column="CommitWarning" original=""/>
@@ -3182,7 +3278,7 @@ EX. SELECT (CASE WHEN COUNT(*) > 0 THEN 'Y' ELSE 'N' END) FROM RV_OpenItem opi W
   <value column="Name" original="Web Store">Loja de Web</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Define Web Store">Definir Loja Virtual</value>
-  <value column="Help" original="Define the web store settings. The web server context must be unique and determines the settings used in the actual transaction. The selected warehouse determines the organization.  The email settings are tested with the client email settings. ">Define as configurações da loja virtual na Internet. O contexto do servidor de intenet deve ser único e determina as configurações utilizadas na transação real. O armazém selecionado determina a organização.  As configurações de email são testadas com os parâmetros de configuração de email da empresa. </value>
+  <value column="Help" original="Define the web store settings. The web server context must be unique and determines the settings used in the actual transaction. The selected warehouse determines the organization.  The email settings are tested with the tenant email settings. ">Define as configurações da loja virtual na Internet. O contexto do servidor de intenet deve ser único e determina as configurações utilizadas na transação real. O armazém selecionado determina a organização.  As configurações de email são testadas com os parâmetros de configuração de email da empresa. </value>
  </row>
  <row id="711" trl="Y">
   <value column="Name" original="Store Translation">Armazenar Tradução</value>
@@ -3314,6 +3410,12 @@ EX. SELECT (CASE WHEN COUNT(*) > 0 THEN 'Y' ELSE 'N' END) FROM RV_OpenItem opi W
   <value column="Name" original="Change Notice">Aviso de Alteração</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Bill of Materials (Engineering) Change Notice (Version)">Aviso de Alteração (versão) de Lista de Materiais (Engenharia)</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="734" trl="N">
+  <value column="Name" original="BOM">BOM</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Bill of Material of Change Notice">Bill of Material of Change Notice</value>
   <value column="Help" original=""/>
  </row>
  <row id="735" trl="Y">
@@ -3551,10 +3653,10 @@ EX. SELECT (CASE WHEN COUNT(*) > 0 THEN 'Y' ELSE 'N' END) FROM RV_OpenItem opi W
   <value column="Help" original=""/>
  </row>
  <row id="776" trl="Y">
-  <value column="Name" original="Client Share">Compartilhamento de Empresa</value>
+  <value column="Name" original="Tenant Share">Compartilhamento de Empresa</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Force (not) sharing of client/org entities">Force (not) sharing of client/org entities</value>
-  <value column="Help" original="Business Partner can be either defined on Client level (shared) or on Org level (not shared).  You can define here of Products are always shared (i.e. always created under Organization &quot;*&quot;) or if they are not shared (i.e. you cannot enter them with Organization &quot;*&quot;).&lt;br&gt;&#10;The creation of  &quot;Client and Org&quot; shared records is the default and is ignored." xml:space="preserve"><![CDATA[Business Partner can be either defined on Client level (shared) or on Org level (not shared).  You can define here of Products are always shared (i.e. always created under Organization "*") or if they are not shared (i.e. you cannot enter them with Organization "*").<br> The creation of  "Client and Org" shared records is the default and is ignored.]]></value>
+  <value column="Description" original="Force (not) sharing of tenant/org entities">Force (not) sharing of client/org entities</value>
+  <value column="Help" original="Business Partner can be either defined on Tenant level (shared) or on Org level (not shared).  You can define here of Products are always shared (i.e. always created under Organization &quot;*&quot;) or if they are not shared (i.e. you cannot enter them with Organization &quot;*&quot;).&lt;br&gt;&#10;The creation of  &quot;Tenant and Org&quot; shared records is the default and is ignored." xml:space="preserve"><![CDATA[Business Partner can be either defined on Client level (shared) or on Org level (not shared).  You can define here of Products are always shared (i.e. always created under Organization "*") or if they are not shared (i.e. you cannot enter them with Organization "*").<br> The creation of  "Client and Org" shared records is the default and is ignored.]]></value>
  </row>
  <row id="777" trl="Y">
   <value column="Name" original="System Issue">Erros do Sistema</value>
@@ -3962,7 +4064,7 @@ EX. SELECT (CASE WHEN COUNT(*) > 0 THEN 'Y' ELSE 'N' END) FROM RV_OpenItem opi W
   <value column="Name" original="LDAP Server">Servidor LDAP</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="LDAP Server to authenticate and authorize external systems based on iDempiere">Servidor LDAP para autenticar e autorizar sistemas externos baseando ser no BrERP.</value>
-  <value column="Help" original="The LDAP Server allows third party software (e.g. Apache) to use the users defined in the system to authentificate and authorize them.  There is only one server per iDempiere system.  The &quot;o&quot; is the Client key and the optional &quot;ou&quot; is the Interest Area key.">O Servidor LDAP permite que softwares de terceiros (Ex. Apache) utilizem os usuários definidos no sistema para autenticação e autorização de acesso. Existe apena um servidor por instância do BrERP. O atributo "o" é a chave da empresa e o atributo opcional "ou" é a chave da área de interesse.</value>
+  <value column="Help" original="The LDAP Server allows third party software (e.g. Apache) to use the users defined in the system to authentificate and authorize them.  There is only one server per iDempiere system.  The &quot;o&quot; is the Tenant key and the optional &quot;ou&quot; is the Interest Area key.">O Servidor LDAP permite que softwares de terceiros (Ex. Apache) utilizem os usuários definidos no sistema para autenticação e autorização de acesso. Existe apena um servidor por instância do BrERP. O atributo "o" é a chave da empresa e o atributo opcional "ou" é a chave da área de interesse.</value>
  </row>
  <row id="850" trl="Y">
   <value column="Name" original="LDAP Server Log">LDAP Server Log</value>
@@ -4098,6 +4200,36 @@ EX. SELECT (CASE WHEN COUNT(*) > 0 THEN 'Y' ELSE 'N' END) FROM RV_OpenItem opi W
  </row>
  <row id="53019" trl="N">
   <value column="Name" original="Manufacturing Workflows Translation">Manufacturing Workflows Translation</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53020" trl="N">
+  <value column="Name" original="Access">Access</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53021" trl="N">
+  <value column="Name" original="Block">Block</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original="  ">  </value>
+ </row>
+ <row id="53022" trl="N">
+  <value column="Name" original="Parameter">Parameter</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53023" trl="N">
+  <value column="Name" original="Node Translation">Node Translation</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53024" trl="N">
+  <value column="Name" original="Condition">Condition</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -4352,7 +4484,7 @@ Business Partner specific Information of a Product</value>
   <value column="Help" original=""/>
  </row>
  <row id="53066" trl="Y">
-  <value column="Name" original="Client Level">Nível de Cliente</value>
+  <value column="Name" original="Tenant Level">Nível de Cliente</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -4667,6 +4799,12 @@ Valid From/To is determined by the parent tax.]]></value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
+ <row id="53137" trl="N">
+  <value column="Name" original="Access Audit">Access Audit</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Log of Access to data or resources">Log of Access to data or resources</value>
+  <value column="Help" original="Logging needs to be explicitly enabled / written.">Logging needs to be explicitly enabled / written.</value>
+ </row>
  <row id="53138" trl="N">
   <value column="Name" original="Revaluation Entry">Revaluation Entry</value>
   <value column="CommitWarning" original=""/>
@@ -4815,6 +4953,18 @@ Valid From/To is determined by the parent tax.]]></value>
   <value column="Name" original="Asset Balances">Saldos Patrimoniais</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Asset Balance Report and Adjustments">Relatório de Saldos Patrimoniais e Ajustes</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53163" trl="N">
+  <value column="Name" original="Cost Details">Cost Details</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Cost Detail">Cost Detail</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53164" trl="N">
+  <value column="Name" original="Asset Usage">Asset Usage</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Record Asset Usage">Record Asset Usage</value>
   <value column="Help" original=""/>
  </row>
  <row id="53165" trl="Y">
@@ -5183,6 +5333,32 @@ Valid From/To is determined by the parent tax.]]></value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
+ <row id="53286" trl="N">
+  <value column="Name" original="BOM">BOM</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Bill of Material product lines">Bill of Material product lines</value>
+  <value column="Help" original="The Bill of Materials tab defines those products that are generated from other products.  A Bill of Material (BOM) is one or more Products or BOMs.&#10;&#10;Available Quantity:&#10;- Stored BOMs have to be created via &quot;Production&quot;&#10;- The available quantity of a non-stored BOMs is dynamically calculated&#10;- The attribute &quot;Stored&quot; is defined in the &quot;Product&quot; tab&#10;&#10;Price:&#10;- BOMs must be listed in Pricelists&#10;- If the price is 0.00, the price is dynamically calculated&#10;&#10;Printing:&#10;- Usually, only the BOM information is printed&#10;- For invoices, delivery slips and pick lists, you have the option to print the details&#10;- In the details, the quantity is listed - and the price, if this is dynamically calculated">The Bill of Materials tab defines those products that are generated from other products.  A Bill of Material (BOM) is one or more Products or BOMs.
+
+Available Quantity:
+- Stored BOMs have to be created via "Production"
+- The available quantity of a non-stored BOMs is dynamically calculated
+- The attribute "Stored" is defined in the "Product" tab
+
+Price:
+- BOMs must be listed in Pricelists
+- If the price is 0.00, the price is dynamically calculated
+
+Printing:
+- Usually, only the BOM information is printed
+- For invoices, delivery slips and pick lists, you have the option to print the details
+- In the details, the quantity is listed - and the price, if this is dynamically calculated</value>
+ </row>
+ <row id="53287" trl="N">
+  <value column="Name" original="Components">Components</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Components">Components</value>
+  <value column="Help" original="Components of Bill fo Material">Components of Bill fo Material</value>
+ </row>
  <row id="53289" trl="Y">
   <value column="Name" original="Costs">Custos</value>
   <value column="CommitWarning" original=""/>
@@ -5260,6 +5436,12 @@ Valid From/To is determined by the parent tax.]]></value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original="This table holds all necessary information to process asset transfers and create the appropriate entry">Esta tabela contém todas as informações necessárias para processar transferências de Ativos e criar as entradas apropriadas.</value>
+ </row>
+ <row id="53328" trl="N">
+  <value column="Name" original="Class">Class</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
  </row>
  <row id="53329" trl="Y">
   <value column="Name" original="Funding Mode">Modo de Financiamento</value>
@@ -6264,7 +6446,7 @@ Valid From/To is determined by the parent tax.]]></value>
   <value column="Help" original=""/>
  </row>
  <row id="200226" trl="N">
-  <value column="Name" original="Client">Client</value>
+  <value column="Name" original="Tenant">Client</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -6305,6 +6487,30 @@ Valid From/To is determined by the parent tax.]]></value>
   <value column="Description" original="User defined Process Parameter">Personalização de Parâmetro</value>
   <value column="Help" original="User defined Process Parameter">Personalização de Parâmetro</value>
  </row>
+ <row id="200249" trl="N">
+  <value column="Name" original="Print Header/Footer">Print Header/Footer</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200255" trl="N">
+  <value column="Name" original="Bank Transfer">Bank Transfer</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200256" trl="N">
+  <value column="Name" original="Payments">Payments</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200257" trl="N">
+  <value column="Name" original="Allocations">Allocations</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
  <row id="200262" trl="N">
   <value column="Name" original="User Roles">User Roles</value>
   <value column="CommitWarning" original=""/>
@@ -6335,6 +6541,12 @@ Valid From/To is determined by the parent tax.]]></value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
+ <row id="200269" trl="N">
+  <value column="Name" original="Used in Column (Lookup)">Used in Column (Lookup)</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Used in Column (Lookup)">Used in Column (Lookup)</value>
+  <value column="Help" original=""/>
+ </row>
  <row id="200271" trl="N">
   <value column="Name" original="Translation">Translation</value>
   <value column="CommitWarning" original=""/>
@@ -6351,6 +6563,240 @@ Valid From/To is determined by the parent tax.]]></value>
   <value column="Name" original="User Queries">User Queries</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="View and maintain saved queries">View and maintain saved queries</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200279" trl="N">
+  <value column="Name" original="Column Customization">Column Customization</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200280" trl="N">
+  <value column="Name" original="Info Window Customization">Info Window Customization</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200281" trl="N">
+  <value column="Name" original="Related Customization">Related Customization</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200282" trl="N">
+  <value column="Name" original="User favourite tree">User favourite tree</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="In this tab, you can see to manage user and role wise favourite tree references">In this tab, you can see to manage user and role wise favourite tree references</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200283" trl="N">
+  <value column="Name" original="Favorite tree node">Favorite tree node</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200284" trl="N">
+  <value column="Name" original="Authorization Provider">Authorization Provider</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200285" trl="N">
+  <value column="Name" original="Authorization Scope Provider">Authorization Scope Provider</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200286" trl="N">
+  <value column="Name" original="Authorization Credential">Authorization Credential</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200287" trl="N">
+  <value column="Name" original="Authorization Account">Authorization Account</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200288" trl="N">
+  <value column="Name" original="MFA Method">MFA Method</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Multi-factor Authentication Method">Multi-factor Authentication Method</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200289" trl="N">
+  <value column="Name" original="MFA Registered Device">MFA Registered Device</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200290" trl="N">
+  <value column="Name" original="MFA Registration">MFA Registration</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200291" trl="N">
+  <value column="Name" original="MFA Rule">MFA Rule</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Multi-factor Authentication Rule">Multi-factor Authentication Rule</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200295" trl="N">
+  <value column="Name" original="Document Status Access">Document Status Access</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200296" trl="N">
+  <value column="Name" original="Document Status Access">Document Status Access</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200297" trl="N">
+  <value column="Name" original="Document Status Access">Document Status Access</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200298" trl="N">
+  <value column="Name" original="SMTP Server">SMTP Server</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200299" trl="N">
+  <value column="Name" original="Customization of the Wlistbox">Customization of the Wlistbox</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200300" trl="N">
+  <value column="Name" original="Reserved Quantity Log">Reserved Quantity Log</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200301" trl="N">
+  <value column="Name" original="Ordered Quantity Log">Ordered Quantity Log</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200302" trl="N">
+  <value column="Name" original="Tenant level messages">Tenant level messages</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200308" trl="N">
+  <value column="Name" original="Drill Rule">Drill Rule</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200309" trl="N">
+  <value column="Name" original="Drill Rule Parameter">Drill Rule Parameter</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200317" trl="N">
+  <value column="Name" original="Label Category">Label Category</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200318" trl="N">
+  <value column="Name" original="Table Access">Table Access</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200319" trl="N">
+  <value column="Name" original="Translation">Translation</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200320" trl="N">
+  <value column="Name" original="Label">Label</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200321" trl="N">
+  <value column="Name" original="Translation">Translation</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200322" trl="N">
+  <value column="Name" original="Drill Rule Translation">Drill Rule Translation</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200324" trl="N">
+  <value column="Name" original="Assignment">Assignment</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200329" trl="N">
+  <value column="Name" original="Datasource Translation">Datasource Translation</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200346" trl="N">
+  <value column="Name" original="Verify Migration">Verify Migration</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200347" trl="N">
+  <value column="Name" original="Verify Migration Process">Verify Migration Process</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200348" trl="N">
+  <value column="Name" original="Test UU Based Table">Test UU Based Table</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200349" trl="N">
+  <value column="Name" original="Test UU Detail">Test UU Detail</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200350" trl="N">
+  <value column="Name" original="Test UU Detail">Test UU Detail</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200351" trl="N">
+  <value column="Name" original="Document Base Type Group">Document Base Type Group</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200352" trl="N">
+  <value column="Name" original="Document Base Type Group Line">Document Base Type Group Line</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="b6dddaf0-d104-45a4-983e-73d67b3d80f3">
+  <value column="Name" original="Rest Auth Token">Rest Auth Token</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
 </idempiereTrl>

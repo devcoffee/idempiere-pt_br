@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--iDempiere(r) Release 7.1_2019-11-22 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="pt_BR" table="AD_Reference">
+<!--iDempiere(r) Release 11_2022-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2023 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="pt_BR" table="AD_Reference">
  <row id="1" trl="Y">
   <value column="Name" original="AD_Reference Data Types">Tipos de Dados AD_Reference</value>
   <value column="Description" original="Data Type selection">Seleção do Tipo de Dados</value>
@@ -103,6 +103,11 @@
  <row id="25" trl="Y">
   <value column="Name" original="Account">Conta</value>
   <value column="Description" original="Account Element">Elemento de Contas</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="26" trl="N">
+  <value column="Name" original="RowID">RowID</value>
+  <value column="Description" original="Row ID Data Type">Row ID Data Type</value>
   <value column="Help" original=""/>
  </row>
  <row id="27" trl="Y">
@@ -312,7 +317,7 @@
  </row>
  <row id="129" trl="Y">
   <value column="Name" original="AD_Client">AD_Client</value>
-  <value column="Description" original="Client selection">Seleção de Empresas</value>
+  <value column="Description" original="Tenant selection">Seleção de Empresas</value>
   <value column="Help" original=""/>
  </row>
  <row id="130" trl="Y">
@@ -327,7 +332,7 @@
  </row>
  <row id="132" trl="Y">
   <value column="Name" original="Account_ID (Trx)">Account_ID (Trx)</value>
-  <value column="Description" original="Account selection based on Client">Seleção de conta baseado na Empresa</value>
+  <value column="Description" original="Account selection based on Tenant">Seleção de conta baseado na Empresa</value>
   <value column="Help" original=""/>
  </row>
  <row id="133" trl="Y">
@@ -337,7 +342,7 @@
  </row>
  <row id="134" trl="Y">
   <value column="Name" original="Account_ID - User1">Account_ID - Usuário1</value>
-  <value column="Description" original="User1 selection based on Client">Seleção do Usuário1 baseado na Empresa</value>
+  <value column="Description" original="User1 selection based on Tenant">Seleção do Usuário1 baseado na Empresa</value>
   <value column="Help" original=""/>
  </row>
  <row id="135" trl="Y">
@@ -352,7 +357,7 @@
  </row>
  <row id="137" trl="Y">
   <value column="Name" original="Account_ID - User2">Account_ID - Usuário2</value>
-  <value column="Description" original="User2 selection based on Client">Seleção do Usuário2 baseado na Empresa</value>
+  <value column="Description" original="User2 selection based on Tenant">Seleção do Usuário2 baseado na Empresa</value>
   <value column="Help" original=""/>
  </row>
  <row id="138" trl="Y">
@@ -606,7 +611,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="197" trl="Y">
-  <value column="Name" original="M_Warehouse of Client">M_Warehouse da Empresa</value>
+  <value column="Name" original="M_Warehouse of Tenant">M_Warehouse da Empresa</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -616,7 +621,7 @@
   <value column="Help" original=""/>
  </row>
  <row id="199" trl="Y">
-  <value column="Name" original="M_PriceList_Version for Client">M_PriceList_Version para a Empresa</value>
+  <value column="Name" original="M_PriceList_Version for Tenant">M_PriceList_Version para a Empresa</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -787,6 +792,11 @@
  </row>
  <row id="234" trl="Y">
   <value column="Name" original="_Posted Status">Estado _Posted</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="235" trl="N">
+  <value column="Name" original="PA_Report AmountType (deprecated)">PA_Report AmountType (deprecated)</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -1242,7 +1252,7 @@
  </row>
  <row id="331" trl="Y">
   <value column="Name" original="Account_ID">Account_ID</value>
-  <value column="Description" original="Account selection based on Client">Seleção de conta baseado na Empresa</value>
+  <value column="Description" original="Account selection based on Tenant">Seleção de conta baseado na Empresa</value>
   <value column="Help" original=""/>
  </row>
  <row id="332" trl="Y">
@@ -2312,7 +2322,7 @@
  </row>
  <row id="200022" trl="N">
   <value column="Name" original="AD_BroadcastMessage_Target">AD_BroadcastMessage_Target</value>
-  <value column="Description" original="Target Client">Target Client</value>
+  <value column="Description" original="Target Tenant">Target Client</value>
   <value column="Help" original=""/>
  </row>
  <row id="200023" trl="N">
@@ -2530,6 +2540,11 @@
   <value column="Description" original="Type of preference WEditor lie on (process, info window, window)">Type of preference WEditor lie on (process, info window, window)</value>
   <value column="Help" original=""/>
  </row>
+ <row id="200085" trl="N">
+  <value column="Name" original="DocSource Generate Shipments/Invoices (manual)">DocSource Generate Shipments/Invoices (manual)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
  <row id="200092" trl="N">
   <value column="Name" original="Country Group">Country Group</value>
   <value column="Description" original=""/>
@@ -2543,6 +2558,16 @@
  <row id="200099" trl="N">
   <value column="Name" original="IsToolbarButton">IsToolbarButton</value>
   <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200115" trl="N">
+  <value column="Name" original="AttributeSet Type">AttributeSet Type</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200117" trl="N">
+  <value column="Name" original="TabTypeList">TabTypeList</value>
+  <value column="Description" original="List of tab type">List of tab type</value>
   <value column="Help" original=""/>
  </row>
  <row id="200121" trl="N">
@@ -2570,14 +2595,34 @@
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
+ <row id="200133" trl="N">
+  <value column="Name" original="Timestamp With Time Zone">Timestamp With Time Zone</value>
+  <value column="Description" original="Date and time with time zone">Date and time with time zone</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200135" trl="N">
+  <value column="Name" original="Time Zone">Time Zone</value>
+  <value column="Description" original="Time Zone">Time Zone</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200137" trl="N">
+  <value column="Name" original="AD_Tree_Favorite_Node list">AD_Tree_Favorite_Node list</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
  <row id="200144" trl="N">
-  <value column="Name" original="AD_Client All Clients">AD_Client All Clients</value>
-  <value column="Description" original="Client selection">Client selection</value>
+  <value column="Name" original="AD_Client All Tenants">AD_Client All Clients</value>
+  <value column="Description" original="Tenant selection">Client selection</value>
   <value column="Help" original=""/>
  </row>
  <row id="200145" trl="N">
-  <value column="Name" original="AD_User Users from all Clients">AD_User Users from all Clients</value>
-  <value column="Description" original="Users from all clients">Users from all clients</value>
+  <value column="Name" original="AD_User Users from all Tenants">AD_User Users from all Clients</value>
+  <value column="Description" original="Users from all tenants">Users from all clients</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200152" trl="N">
+  <value column="Name" original="Radio Group List">Radio Group List</value>
+  <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200157" trl="N">
@@ -2588,6 +2633,11 @@
  <row id="200158" trl="N">
   <value column="Name" original="AD_Process Multiple Execution">AD_Process Multiple Execution</value>
   <value column="Description" original="Multiple execution rule list">Multiple execution rule list</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200160" trl="N">
+  <value column="Name" original="C_Tax Posting Indicator">C_Tax Posting Indicator</value>
+  <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="200161" trl="N">
@@ -2638,6 +2688,196 @@
  <row id="200173" trl="N">
   <value column="Name" original="Scheduler State">Scheduler State</value>
   <value column="Description" original="View and change the state of a scheduler">View and change the state of a scheduler</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200174" trl="N">
+  <value column="Name" original="PA_ReportLine Line Stroke Type">PA_ReportLine Line Stroke Type</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200175" trl="N">
+  <value column="Name" original="C_BPartner (all)">C_BPartner (all)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200176" trl="N">
+  <value column="Name" original="M_Product (all)">M_Product (all)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200178" trl="N">
+  <value column="Name" original="ImportOrExport">ImportOrExport</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200179" trl="N">
+  <value column="Name" original="AD_Table Trl">AD_Table Trl</value>
+  <value column="Description" original="Translated Tables">Translated Tables</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200180" trl="N">
+  <value column="Name" original="M_AttributeSetInstance">M_AttributeSetInstance</value>
+  <value column="Description" original="Attribute Set Instance">Attribute Set Instance</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200181" trl="N">
+  <value column="Name" original="S_ResourceAssignment">S_ResourceAssignment</value>
+  <value column="Description" original="Resource Assignment">Resource Assignment</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200182" trl="N">
+  <value column="Name" original="AD_Image">AD_Image</value>
+  <value column="Description" original="Image">Image</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200183" trl="N">
+  <value column="Name" original="AD_Chart">AD_Chart</value>
+  <value column="Description" original="Chart">Chart</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200184" trl="N">
+  <value column="Name" original="AD_AuthorizationType">AD_AuthorizationType</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200185" trl="N">
+  <value column="Name" original="AD_AuthorizationScope">AD_AuthorizationScope</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200186" trl="N">
+  <value column="Name" original="HTML Attachment Type List">HTML Attachment Type List</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200187" trl="N">
+  <value column="Name" original="MFA_Method">MFA_Method</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200188" trl="N">
+  <value column="Name" original="MFAType">MFAType</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200189" trl="N">
+  <value column="Name" original="MFATimeProvider">MFATimeProvider</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200190" trl="N">
+  <value column="Name" original="AD_Element">AD_Element</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200191" trl="N">
+  <value column="Name" original="MFA_Method - on tenant rule">MFA_Method - on tenant rule</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200194" trl="N">
+  <value column="Name" original="M_WarehouseTo of Tenant">M_WarehouseTo of Tenant</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200198" trl="N">
+  <value column="Name" original="FinReport ExcludeAdjustmentPeriods">FinReport ExcludeAdjustmentPeriods</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200202" trl="N">
+  <value column="Name" original="Record ID">Record ID</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200208" trl="N">
+  <value column="Name" original="C_DocType S.Order + RMA">C_DocType S.Order + RMA</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200215" trl="N">
+  <value column="Name" original="AD_Role RoleType - WebService">AD_Role RoleType - WebService</value>
+  <value column="Description" original="Roles with RoleType NULL or WebService">Roles with RoleType NULL or WebService</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200217" trl="N">
+  <value column="Name" original="DateSelectionMode">DateSelectionMode</value>
+  <value column="Description" original="Date Selection Mode">Date Selection Mode</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200221" trl="N">
+  <value column="Name" original="Months">Months</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200222" trl="N">
+  <value column="Name" original="Quarters">Quarters</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200224" trl="N">
+  <value column="Name" original="S_ResourceType">S_ResourceType</value>
+  <value column="Description" original="Resource Type">Resource Type</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200227" trl="N">
+  <value column="Name" original="PrintFormatItemSync Source">PrintFormatItemSync Source</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200228" trl="N">
+  <value column="Name" original="Date Range Option">Date Range Option</value>
+  <value column="Description" original="Options, how the date editor will be displayed.">Options, how the date editor will be displayed.</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200230" trl="N">
+  <value column="Name" original="AD_Reference Show Inactive">AD_Reference Show Inactive</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200231" trl="N">
+  <value column="Name" original="UUID">UUID</value>
+  <value column="Description" original="Universally unique identifier">Universally unique identifier</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200232" trl="N">
+  <value column="Name" original="AD_Table Name">AD_Table Name</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200233" trl="N">
+  <value column="Name" original="Table (UU)">Table (UU)</value>
+  <value column="Description" original="Table List based on UUID">Table List based on UUID</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200234" trl="N">
+  <value column="Name" original="Table Direct (UU)">Table Direct (UU)</value>
+  <value column="Description" original="Direct Table Access based on UUID">Direct Table Access based on UUID</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200235" trl="N">
+  <value column="Name" original="Search (UU)">Search (UU)</value>
+  <value column="Description" original="Search Field based on UUID">Search Field based on UUID</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200236" trl="N">
+  <value column="Name" original="Test UU">Test UU</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200237" trl="N">
+  <value column="Name" original="AD_Table with ID or UU Column">AD_Table with ID or UU Column</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200240" trl="N">
+  <value column="Name" original="Record UUID">Record UUID</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200241" trl="N">
+  <value column="Name" original="GL_Category (all)">GL_Category (all)</value>
+  <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
 </idempiereTrl>
